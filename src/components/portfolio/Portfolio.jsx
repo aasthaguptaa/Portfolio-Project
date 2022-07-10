@@ -1,10 +1,87 @@
-import React from 'react'
-import "./Portfolio.css"
+import React, { useState, useEffect } from "react";
+import PortfolioList from "../PortfolioList/portfolioList";
+import "./Portfolio.scss";
+import {
+  experiencePortfolio,
+  publicationsPortfolio,
+  patentPortfolio,
+  honorsAwardsPortfolio,
+  badgesCertificatonsPortfolio,
+} from "../../data";
 
 export default function Portfolio() {
-    return (
-        <div className="portfolio" id="portfolio">
-            This is my Portfolio
-        </div>
-    )
+  const [selected, setSelected] = useState("featured");
+  const [data, setData] = useState([]);
+
+  const list = [
+    {
+      id: "experience",
+      title: "Experience",
+    },
+    {
+      id: "publications",
+      title: "Publications",
+    },
+    {
+      id: "patent",
+      title: "Patent",
+    },
+    {
+      id: "honors&awards",
+      title: "Honors & Awards",
+    },
+    {
+      id: "badges&certificatons",
+      title: "Badges & Certifications",
+    },
+  ];
+
+  useEffect(() => {
+    switch (selected) {
+      case "experience":
+        setData(experiencePortfolio);
+        break;
+      case "publications":
+        setData(publicationsPortfolio);
+        break;
+      case "patent":
+        setData(patentPortfolio);
+        break;
+      case "honors&awards":
+        setData(honorsAwardsPortfolio);
+        break;
+      case "badges&certificatons":
+        setData(badgesCertificatonsPortfolio);
+        break;
+      default:
+        setData(experiencePortfolio);
+    }
+  }, [selected]);
+
+  return (
+    <div className="portfolio" id="portfolio">
+      <h1>Portfolio</h1>
+      <ul>
+        {list.map((item) => (
+          <PortfolioList
+            title={item.title}
+            active={selected === item.id}
+            setSelected={setSelected}
+            id={item.id}
+          />
+        ))}
+      </ul>
+
+      <div className="container">
+        {data.map((d) => (
+          <div className="item">
+            <img src={d.img} alt="" />
+            <h3>{d.title}</h3>
+            <h5>{d.desc1}</h5>
+            <h6>{d.desc}</h6>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }
