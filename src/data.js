@@ -74,8 +74,8 @@ export const patentPortfolio = [
     id: 1,
     title:
       "X-SPARK- GENERATING ELECTRICITY FROM HUMAN OR VEHICLE PRESSURE USING PEC MATERIAL",
-    img: "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
-    desc: "Aug 9, 2019",
+      img: "assets/patent.png",
+      desc: "Aug 9, 2019",
   },
 ];
 
@@ -120,32 +120,62 @@ export const honorsAwardsPortfolio = [
 export const badgesCertificatonsPortfolio = [
   {
     id: 1,
-    title: "Content Social Media App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "JavaScript Front-End Development",
+    img: "assets/JavaScript-Front-End-Development.png",
   },
   {
     id: 2,
-    title: "Content Rampa UI Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "IBM Carbon Design System Developer Essentials - React",
+    img: "assets/Carbon-IBM.png",
   },
   {
     id: 3,
-    title: "Content E-commerce Web Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Microsoft Certified: Azure Fundamentals",
+    img: "assets/Azure-Fundamentals.png",
   },
   {
     id: 4,
-    title: "Content Relax Mobile App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "IBM Cloud Advocate",
+    img: "assets/IBM_Certified_Advocate_-_IBM_Cloud_v1.png",
   },
   {
     id: 5,
-    title: "Content Keser Web Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Mental Health Ally",
+    img: "assets/Mental-Health-Ally.png",
   },
   {
     id: 6,
-    title: "Content Banking App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Enterprise Design Thinking - Team Essentials for AI",
+    img: "assets/Team_Essentials.png",
+  },
+  {
+    id: 7,
+    title: "The IBM Way",
+    img: "assets/The-IBM-Way.png",
+  },
+  {
+    id: 8,
+    title: "IBM Agile Explorer",
+    img: "assets/IBM-Agile-Explorer.png",
+  },
+  {
+    id: 9,
+    title: "Cognitive Practitioner",
+    img: "assets/Cognitive-Practitioner.png",
+  },
+  {
+    id: 10,
+    title: "Enterprise Design Thinking Practitioner",
+    img: "assets/Badges_v8-07_Practitioner.png",
+  },
+  {
+    id: 11,
+    title: "IBM Consulting – Communicating Value",
+    img: "assets/IBM-Consulting-Education-communicating-value.png",
+  },
+  {
+    id: 12,
+    title: "IBM New Collar Professional Skills",
+    img: "assets/IBM_New_Collar_Professional_Skills.png",
   },
 ];
