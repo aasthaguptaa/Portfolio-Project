@@ -3,9 +3,9 @@
 .portfolioList{
     font-size: 14px;
     margin-right: 50px;
-    margin-bottom: 20px;
+   // margin-bottom: 20px;
     padding: 7px;
-    border-radius: 10px;
+    // border-radius: 10px; 
     cursor: pointer;
 
     @include mobile{
@@ -13,7 +13,8 @@
     }
 
     &.active{
-        background-color: $mainColor;
-        color: white;
+        // background-color: $mainColor;
+        border-bottom: #7d232385 5px solid;;
+        color: black;
     }
 }

@@ -64,9 +64,9 @@ export default function Work() {
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
-                  <div className="imgContainer">
+                  {/* <div className="imgContainer">
                     <img src={d.icon} alt="" />
-                  </div>
+                  </div> */}
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
                   <a href={d.link}>know more..</a>

@@ -71,30 +71,26 @@ export default function Portfolio() {
           />
         ))}
       </ul>
-
-      {data.length === 1 ? (
-        <div className="patentContainer">
-          {data.map((d) => (
-            <div className="item">
-              <img src={d.img} alt="" />
-              <h3>{d.title}</h3>
-              <h5>{d.desc1}</h5>
-              <h6>{d.desc}</h6>
-            </div>
-          ))}
-        </div>
-      ) : (
+      <hr className="hrstyle" />
         <div className="container">
           {data.map((d) => (
             <div className="item">
               <img src={d.img} alt="" />
-              <h3>{d.title}</h3>
-              <h5>{d.desc1}</h5>
-              <h6>{d.desc}</h6>
+              <div className="itemDesc">
+                <div className="title">{d.title}</div>
+                <div className="subTitle">{d.subTitle}</div>
+                <div className="description">{d.description}</div>
+                <div className="description">{d.date}</div>
+
+                {d.link ? (
+                  <a href={d.link} target="_blank" rel="noreferrer">
+                    <div className="description">Know More..</div>
+                  </a>
+                ) : null}
+              </div>
             </div>
           ))}
         </div>
-      )}
     </div>
   );
 }
