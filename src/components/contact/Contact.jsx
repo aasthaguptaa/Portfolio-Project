@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Email, GitHub, LinkedIn, Phone } from "@material-ui/icons";
+import { Email, GitHub, LinkedIn } from "@material-ui/icons";
 import "./Contact.scss";
 
 export default function Contact() {
