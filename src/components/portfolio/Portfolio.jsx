@@ -10,7 +10,7 @@ import {
 } from "../../data";
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState("featured");
+  const [selected, setSelected] = useState("experience");
   const [data, setData] = useState([]);
 
   const list = [
