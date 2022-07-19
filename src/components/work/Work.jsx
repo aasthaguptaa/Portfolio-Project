@@ -32,27 +32,35 @@ export default function Work() {
     {
       id: "4",
       icon: "./assets/writing.png",
-      title: "Tip Calculator",
-      desc: "An app that calculates the tip amount for various percentages of the cost of the service, and also provides a total amount that includes the tip.",
-      link: "https://aasthaguptaa.github.io/Tip-Calculator",
+      title: "A multi-functional website",
+      desc: "An app that is multifunctional in nature. It has several different uses.",
+      link: "https://aasthaguptaa.github.io/Multifunctional-Website",
       img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-    },
-    {
-      id: "5",
-      icon: "./assets/writing.png",
-      title: "Calculator",
-      desc: "An app that performs arithmetic operations on numbers.",
-      link: "https://aasthaguptaa.github.io/Calculator",
-      img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-    },
-    {
-      id: "5",
-      icon: "./assets/writing.png",
-      title: "Joke Generator",
-      desc: "An app that generates jokes on the click of a button.",
-      link: "https://aasthaguptaa.github.io/Joke-Generator",
-      img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-    },
+    }
+    // {
+    //   id: "4",
+    //   icon: "./assets/writing.png",
+    //   title: "Tip Calculator",
+    //   desc: "An app that calculates the tip amount for various percentages of the cost of the service, and also provides a total amount that includes the tip.",
+    //   link: "https://aasthaguptaa.github.io/Tip-Calculator",
+    //   img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+    // },
+    // {
+    //   id: "5",
+    //   icon: "./assets/writing.png",
+    //   title: "Calculator",
+    //   desc: "An app that performs arithmetic operations on numbers.",
+    //   link: "https://aasthaguptaa.github.io/Calculator",
+    //   img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+    // },
+    // {
+    //   id: "5",
+    //   icon: "./assets/writing.png",
+    //   title: "Joke Generator",
+    //   desc: "An app that generates jokes on the click of a button.",
+    //   link: "https://aasthaguptaa.github.io/Joke-Generator",
+    //   img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+    // },
   ];
 
   const handleClick = (way) => {

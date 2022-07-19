@@ -34,6 +34,15 @@
           height: 50%;
         }
       }
+
+      .phoneIcon{
+        font-size: 500px;
+        color: #ffc0cb99;
+        transform: rotateX(180deg);
+        transform: rotateY(180deg);
+        margin-left: 10px;
+        margin-bottom: 40px;
+      }
     }
   }
   .left {

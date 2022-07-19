@@ -25,6 +25,8 @@ export default function Intro() {
                 </div>
             </div>
             <div className="right">
+            <div className="smallContainer">
+            </div>
                 <div className="wrapper">
                     <h2> Hello! I am</h2>
                     <h1> Astha Gupta</h1>

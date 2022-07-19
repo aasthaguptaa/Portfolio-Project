@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Email, GitHub, LinkedIn } from "@material-ui/icons";
+import { Email, GitHub, LinkedIn, PermPhoneMsg } from "@material-ui/icons";
 import "./Contact.scss";
 
 export default function Contact() {
@@ -51,7 +51,8 @@ export default function Contact() {
 
       <div className="right">
         <div className="shape">
-          <img src="assets/AsthaFinal2.png" alt="" />
+          {/* <img src="assets/AsthaFinal2.png" alt="" /> */}
+          <PermPhoneMsg className="phoneIcon"/>;
         </div>
       </div>
     </div>
