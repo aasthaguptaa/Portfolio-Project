@@ -51,7 +51,6 @@ export default function Contact() {
 
       <div className="right">
         <div className="shape">
-          {/* <img src="assets/AsthaFinal2.png" alt="" /> */}
           <PermPhoneMsg className="phoneIcon"/>;
         </div>
       </div>
