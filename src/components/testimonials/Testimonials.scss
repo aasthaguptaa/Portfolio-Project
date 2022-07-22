@@ -17,7 +17,7 @@
     color: #7d2323e6;
 
     @include mobile {
-      font-size: 20px;
+      font-size: 30px;
     }
   }
   .hrstyle {
@@ -35,8 +35,9 @@
     justify-content: center;
 
     @include mobile {
-      flex-direction: column;
-      height: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 80%;
     }
 
     .card {
@@ -53,8 +54,9 @@
       transition: all 1s ease;
 
       @include mobile {
-        height: 180px;
-        margin: 10px 0;
+        height: 40%;
+        margin: 20px;
+
       }
 
       &.featured {
@@ -97,7 +99,6 @@
       .center {
         padding: 10px;
         border-radius: 10px;
-        // background-color: #eff2f2;
         background-color: white;
         font-size: 10px;
         height: 60%;
