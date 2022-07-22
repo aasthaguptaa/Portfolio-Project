@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .work {
-  background-color: #d9c7df;    
+  background-color: #d9c7df;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,16 +13,20 @@
     position: absolute;
     cursor: pointer;
 
-    @include mobile {
-      display: none;
-    }
-
     &.left {
       left: 100px;
+
+      @include mobile {
+        left: 0;
+      }
     }
 
     &.right {
       right: 100px;
+
+      @include mobile {
+        right: 0;
+      }
     }
   }
 
@@ -35,7 +39,7 @@
 
     @include mobile {
       height: 100vh;
-      flex-direction: column;
+      // flex-direction: column;
       justify-content: center;
     }
 
@@ -45,6 +49,12 @@
       align-items: center;
       justify-content: center;
       padding: 25px 0px 25px 0px;
+
+      @include mobile {
+        padding: 0px;
+        overflow: hidden;
+      }
+
 
       .item {
         width: 700px;
@@ -57,9 +67,11 @@
         justify-content: center;
 
         @include mobile {
-          width: 80%;
+          width: 75%;
+          box-shadow: none;
           height: 150px;
           margin: 15px 0;
+          overflow: hidden;
         }
 
         .left {

@@ -23,8 +23,9 @@
     display: flex;
 
     @include mobile {
-      margin: 10px 0;
+      // margin: 10px 0;
       flex-wrap: wrap;
+      align-items: center;
       justify-content: center;
     }
   }
@@ -66,8 +67,8 @@
       cursor: pointer;
 
       @include mobile {
-        width: 130px;
-        height: 100px;
+        width: 50%;
+        height: 70%;
       }
 
       img {
@@ -98,6 +99,7 @@
           justify-content: center;
           font-style: italic;
           text-transform: capitalize;
+          padding: 5px 10px;
         }
 
         .subTitle {
