@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { init } from "ityped";
 import { KeyboardArrowDown } from "@material-ui/icons";
-
+import AsthaFinal from "../../images/AsthaFinal.png"
 import "./Intro.scss";
 
 export default function Intro() {
@@ -21,7 +21,7 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/AsthaFinal.png" alt="Astha"/>
+          <img src={AsthaFinal}/>
         </div>
       </div>
       <div className="center">

@@ -19,6 +19,7 @@
       font-size: 30px;
     }
   }
+
   .hrstyle {
     border: 1px solid #ecfbfb;
     background-color: teal;
@@ -53,7 +54,7 @@
       transition: all 1s ease;
 
       @include mobile {
-        height: 40%;
+        height: 50%;
         margin: 20px;
 
       }
@@ -86,6 +87,7 @@
             border-radius: 50%;
             object-fit: cover;
             margin: 0 30px;
+            overflow: hidden;
 
             @include mobile {
               width: 30px;
@@ -119,7 +121,7 @@
         }
 
         @include mobile {
-          font-size: 5px;
+          font-size: 10px;
           padding: 5px;
         }
       }
