@@ -51,7 +51,7 @@ export default function Contact() {
 
       <div className="right">
         <div className="shape">
-          <PermPhoneMsg className="phoneIcon"/>;
+          <PermPhoneMsg className="phoneIcon"/>
         </div>
       </div>
     </div>

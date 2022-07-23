@@ -53,7 +53,7 @@ export default function Testimonials() {
             <div className="center">
               <FormatQuote style={{ transform: "rotateY(180deg)" }} />
               <div className="description">{d.desc}</div>
-              <FormatQuote style={{ marginLeft: "210px" }} />
+              <FormatQuote style={{ marginLeft: "auto" }} />
             </div>
             <div className="bottom">
               <h4> {d.name}</h4>

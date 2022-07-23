@@ -17,14 +17,15 @@
       height: 100%;
       background-color: #6a1e1e9e;
       border-top-left-radius: 100%;
-      border-bottom-left-radius: 100%;
+    border-bottom-left-radius: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
 
       @include mobile {
-        border-top-right-radius: 50%;
-        border-top-left-radius: 50%;
+        margin-top: 50px;
+        border-top-right-radius: 90%;
+        border-top-left-radius: 90%;
         border-bottom-left-radius: 0%;
       }
 
@@ -37,7 +38,7 @@
         margin-top: 10%;
 
         @include mobile {
-          font-size: 200px;
+          font-size: 100px;
           margin: auto;
         }
       }
@@ -51,8 +52,13 @@
     justify-content: center;
 
     h2 {
-      font-size: 30px;
-      margin-bottom: 30px;
+      font-size: 40px;
+      overflow: hidden;
+      margin-bottom: 25px;
+      margin-top: 10px;
+      @include mobile {
+        font-size: 25px;
+      }
     }
 
     .itemContainer {
@@ -74,7 +80,7 @@
         margin-right: 25px;
 
         @include mobile {
-          font-size: 30px;
+          font-size: 40px;
         }
       }
 
@@ -88,6 +94,7 @@
       border: 1px solid #ffc0cb99;
       background-color: $mainColor;
       width: 70%;
+      margin-bottom: 30px;
     }
 
     form {
@@ -98,9 +105,21 @@
       align-items: center;
       justify-content: center;
       gap: 20px;
+
+      @include mobile {
+        gap: 10px;
+      }
+
+      h5{
+        font-size: 20px;
+
+        @include mobile {
+          font-size: 14px;
+        }
+      }
       input {
-        width: 300px;
-        height: 30px;
+        width: 400px;
+        height: 40px;
         font-size: 14px;
 
         @include mobile {
@@ -110,8 +129,8 @@
       }
 
       textarea {
-        width: 300px;
-        height: 200px;
+        width: 400px;
+        height: 300px;
         font-size: 14px;
 
         @include mobile {
