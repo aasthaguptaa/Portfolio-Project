@@ -13,12 +13,11 @@ export default function Portfolio() {
         <div className="tabWrapper">
           {data.map((tab, i) => (
             <div
-              className="tab"
               key={i}
               onClick={() => {
                 setCurrentTab(tab.type);
               }}
-              active={tab.type === currentTab}
+              className={(tab.type === currentTab) ? "tab active" : "tab"}
             >             
               {tab.type}
             </div>

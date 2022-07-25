@@ -52,10 +52,9 @@
     justify-content: center;
 
     h2 {
-      font-size: 40px;
+      font-size: 35px;
       overflow: hidden;
-      margin-bottom: 25px;
-      margin-top: 10px;
+      margin: 10px auto;
       @include mobile {
         font-size: 25px;
       }
@@ -65,7 +64,6 @@
       display: flex;
       align-items: center;
       margin-left: 40px;
-      margin-bottom: 20px;
       overflow: hidden;
 
       a {
@@ -94,7 +92,7 @@
       border: 1px solid #ffc0cb99;
       background-color: $mainColor;
       width: 70%;
-      margin-bottom: 30px;
+      margin: 10px auto;
     }
 
     form {
@@ -111,7 +109,8 @@
       }
 
       h5{
-        font-size: 20px;
+        font-size: 15px;
+        height: 30px;
 
         @include mobile {
           font-size: 14px;

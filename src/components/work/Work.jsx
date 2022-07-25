@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Work.scss";
-import { ArrowForwardIos, ArrowBackIos } from "@material-ui/icons";
 
-export default function Work() {
-  const [currentSlide, setCurrentSlide] = useState(0);
+const Work = () => {
   const data = [
     {
       id: "1",
@@ -62,47 +60,20 @@ export default function Work() {
     //   img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
     // },
   ];
-
-  const handleClick = (way) => {
-    way === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
-      : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
-  };
-
   return (
     <div className="work" id="work">
-      <div
-        className="slider"
-        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
-      >
-        {data.map((d) => (
-          <div className="container">
-            <div className="item">
-              <div className="left">
-                <div className="leftContainer">
-                  {/* <div className="imgContainer">
-                    <img src={d.icon} alt="" />
-                  </div> */}
-                  <h2>{d.title}</h2>
-                  <p>{d.desc}</p>
-                  <a href={d.link}>know more..</a>
-                </div>
-              </div>
-              <div className="right">
-                <img src={d.img} alt="" />
-              </div>
-            </div>
+      <h1>Work</h1>
+      <hr className="hrstyle" />
+      <div className="container">
+        {data.map((item) => (
+          <div className="card">
+            <h4> {item.title}</h4>
+            <h6> {item.desc}</h6>
           </div>
         ))}
       </div>
-      <ArrowForwardIos
-        className="arrow right"
-        onClick={() => handleClick("")}
-      />
-      <ArrowBackIos
-        className="arrow left"
-        onClick={() => handleClick("left")}
-      />
     </div>
   );
-}
+};
+
+export default Work;
