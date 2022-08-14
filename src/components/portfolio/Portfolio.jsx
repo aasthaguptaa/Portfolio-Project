@@ -17,8 +17,8 @@ export default function Portfolio() {
               onClick={() => {
                 setCurrentTab(tab.type);
               }}
-              className={(tab.type === currentTab) ? "tab active" : "tab"}
-            >             
+              className={tab.type === currentTab ? "tab active" : "tab"}
+            >
               {tab.type}
             </div>
           ))}
@@ -30,14 +30,14 @@ export default function Portfolio() {
               return item.subData.map((d) => (
                 <div className="item">
                   <div className="itemDesc">
-                    <div className="title">{d.title}</div>
                     <div className="subTitle">{d.subTitle}</div>
+                    <div className="title">{d.title}</div>
                     <div className="description">{d.description}</div>
                     <div className="description">{d.date}</div>
 
                     {d.link ? (
                       <a href={d.link} target="_blank" rel="noreferrer">
-                        <div className="description">Know More..</div>
+                        know more..
                       </a>
                     ) : null}
                   </div>

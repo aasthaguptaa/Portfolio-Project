@@ -5,27 +5,24 @@ const Work = () => {
   const data = [
     {
       id: "1",
-      icon: "./assets/mobile.png",
       title: "X-Spark",
       desc: "A product, which generates electricity using human weight/pressure.",
       link: "https://ieeexplore.ieee.org/document/9033755",
-      img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+      img: "assets/bulb.png",
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
       title: "Smart Notice Board",
       desc: "A product integrated with X-Spark which displays a customized message whenever the user steps on the X-Spark mat, meanwhile reducing the continuous consumption of electricity.",
       link: "https://medium.com/@HR03/smart-notice-board-using-x-spark-mat-1c508a5e84f3",
-      img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+      img: "assets/SNB1.jpeg",
     },
     {
       id: "3",
-      icon: "./assets/writing.png",
       title: "To-Do-List",
       desc: "An app that allows users to add, edit, and delete tasks they want to work on, and also mark tasks as complete without deleting them.",
-      link: "https://aasthaguptaa.github.io/To-Do-List",
-      img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+      link: "https://aasthaguptaa.github.io/TaskList",
+      img: "assets/TaskList.png",
     },
     // {
     //   id: "4",
@@ -67,8 +64,17 @@ const Work = () => {
       <div className="container">
         {data.map((item) => (
           <div className="card">
-            <h4> {item.title}</h4>
-            <h6> {item.desc}</h6>
+            <img className="user" src={item.img} alt="" />
+            <div className="title"> {item.title}</div>
+            <div className="description">{item.desc}</div>
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noreferrer"
+              className="description"
+            >
+              Click here to know more!
+            </a>
           </div>
         ))}
       </div>
