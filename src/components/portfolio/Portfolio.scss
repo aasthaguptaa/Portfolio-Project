@@ -38,6 +38,7 @@
 
     @include mobile {
       gap: 0px;
+      flex-direction: column;
     }
 
     .tabWrapper {
@@ -50,7 +51,10 @@
       width: 70%;
 
       @include mobile {
+        width: 100%;
         margin-left: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
       }
 
       .tab {
@@ -78,9 +82,11 @@
 
         @include mobile {
           font-size: 12px;
+          margin: 5px;
           padding: 15px;
-          width: 60%;
-          height: 30px;
+          width: 20%;
+          height: 10px;
+          overflow: hidden;
         }
       }
 
@@ -95,7 +101,6 @@
       justify-content: center;
       flex-wrap: wrap;
       height: 82.5vh;
-      // overflow: hidden;
       scroll-behavior: smooth;
       scrollbar-width: none;
       &::-webkit-scrollbar {
@@ -103,13 +108,13 @@
       }
 
       @include mobile {
-        height: 90vh;
+        height: 81vh;
+        border-top: 2px solid #883434;
       }
 
       .item {
         width: 40%;
         height: 35%;
-        // margin: 10px;
         border-radius: 20px;
         background-color: white;
         margin: 20px 20px;
@@ -124,18 +129,16 @@
         transition: all 1s ease;
 
         &:hover {
-          // background-color: #5a1616;
           transform: scale(1.1);
           box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
         }
 
         @include mobile {
           width: 100%;
-          height: 20%;
+          height: 35%;
           overflow: hidden;
           box-shadow: none;
           &:hover {
-            // background-color: #5a1616;
             transform: scale(1.1);
             box-shadow: none;
           }
@@ -160,16 +163,12 @@
           justify-content: center;
           align-items: center;
           flex-direction: column;
-          // background-color: #ffc0cb66;
           border-radius: 20px;
           width: 100%;
           height: 100%;
           background-color: #a86f6f;
           border-right: 1px brown solid;
           padding: 25px;
-          // &:hover {
-            // background-color: #5a1616;
-          // }
 
           .title {
             font-size: 14px;
@@ -185,7 +184,7 @@
           }
 
           .subTitle {
-            font-size: 16px;
+            font-size: 12px;
             font-weight: 600;
             color: white;
             font-style: italic;
@@ -202,11 +201,9 @@
               font-size: 8px;
             }
           }
-          a{
-            // color: blue;
+          a {
             font-size: 12px;
             margin-top: 5px;
-            // text-transform: capitalize;
           }
         }
       }

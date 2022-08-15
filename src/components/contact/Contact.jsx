@@ -79,13 +79,13 @@ export default function Contact() {
             value={emailBody}
             onChange={(event) => {
               setEmailBody(event.target.value);
-              {event.target.value.length? setIsDisabled(false): setIsDisabled(true)}
+              {event.target.value.trim().length? setIsDisabled(false): setIsDisabled(true)}
             }}
           ></textarea>
           <button type="submit" disabled={isDisabled} className={isDisabled ? "disable" : "button"}>
             Send
           </button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          {message && <span>Thanks, I'll get back to you ASAP :)</span>}
         </form>
       </div>
 

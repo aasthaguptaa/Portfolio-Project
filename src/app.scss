@@ -15,6 +15,7 @@
     }
     > *{
         width: 100vw;
+        top: 70px;
         height: calc(100vh - 70px);
         scroll-snap-align: start ;
     }

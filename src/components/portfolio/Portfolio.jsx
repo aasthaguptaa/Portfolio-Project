@@ -4,7 +4,6 @@ import { data } from "../../data";
 
 export default function Portfolio() {
   const [currentTab, setCurrentTab] = useState("Experience");
-
   return (
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
@@ -30,8 +29,8 @@ export default function Portfolio() {
               return item.subData.map((d) => (
                 <div className="item">
                   <div className="itemDesc">
-                    <div className="subTitle">{d.subTitle}</div>
                     <div className="title">{d.title}</div>
+                    <div className="subTitle">{d.subTitle}</div>
                     <div className="description">{d.description}</div>
                     <div className="description">{d.date}</div>
 

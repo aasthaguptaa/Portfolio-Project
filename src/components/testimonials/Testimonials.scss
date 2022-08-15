@@ -61,18 +61,18 @@
 
       @include mobile {
         height: 50%;
-        width: 45%;
+        width: 60%;
         margin: 20px;
       }
 
       &.featured {
-        width: 300px;
-        height: 75%;
+        width: 23%;
+        height: 73%;
         margin: 0 30px;
 
         @include mobile {
-          width: 250px;
-          height: 180px;
+          width: 48%;
+          height: 58%;
           margin: 1px;
         }
       }
@@ -107,8 +107,8 @@
         padding: 10px;
         border-radius: 10px;
         background-color: white;
-        font-size: 10px;
-        height: 60%;
+        font-size: 12px;
+        height: 65%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -125,7 +125,7 @@
             color: $mainColor;
 
             @include mobile {
-              font-size: 14px;
+              font-size: 12px;
             }
           }
         }
@@ -154,7 +154,7 @@
           color: rgb(121, 115, 115);
 
           @include mobile {
-            font-size: 13px;
+            font-size: 11px;
           }
         }
       }
