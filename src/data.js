@@ -114,7 +114,7 @@ export const data = [
         description: "BNCCI, NSDC, MSME Kolkata",
         date: "Dec 2018",
         img: "assets/iitf.jpg",
-        link: "https://drive.google.com/file/d/1BFFadu3ncpkmtPPSQIot8YQWtXdaEnaG/view",
+        link: "https://www.bncci.com/",
       },
       {
         id: 3,
@@ -122,7 +122,7 @@ export const data = [
         description: "Texas Instruments, mygov, IISC Bangalore",
         date: "Nov 2018",
         img: "assets/texas.jpg",
-        link: "https://drive.google.com/file/d/1BFFadu3ncpkmtPPSQIot8YQWtXdaEnaG/view",
+        link: "https://blog.mygov.in/iicdc2018-qualifier-results-and-an-introduction-to-the-evaluation-panel/",
       },
       {
         id: 4,
@@ -132,7 +132,7 @@ export const data = [
           "Hult International Business School, Bill Clinton, United Nations",
         date: "Apr 2018",
         img: "assets/HultDelhi.jpg",
-        link: "https://drive.google.com/file/d/1BFFadu3ncpkmtPPSQIot8YQWtXdaEnaG/view",
+        link: "https://www.facebook.com/hultprize.iitd/",
       },
       {
         id: 5,
@@ -142,7 +142,7 @@ export const data = [
           "Hult International Business School, Bill Clinton, United Nations",
         date: "Mar 2018",
         img: "assets/HultMalaysia.jpeg",
-        link: "https://drive.google.com/file/d/1BFFadu3ncpkmtPPSQIot8YQWtXdaEnaG/view",
+        link: "https://www.hultprize.org/",
       },
       {
         id: 6,
@@ -152,7 +152,7 @@ export const data = [
           "Hult International Business School, Bill Clinton, United Nations",
         date: "Nov 2017",
         img: "assets/HultNSEC.jpg",
-        link: "https://drive.google.com/file/d/1BFFadu3ncpkmtPPSQIot8YQWtXdaEnaG/view",
+        link: "https://www.facebook.com/pg/nsechult/posts/",
       },
       {
         id: 7,
