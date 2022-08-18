@@ -7,6 +7,14 @@ export default function Testimonials() {
   const data = [
     {
       id: 1,
+      name: "Soumya Maiti",
+      title: "People Manager",
+      company: "IBM",
+      img: "assets/BarunDa.png",
+      desc: "Keep up the good work Astha. You have demonstrated balance and maturity, use your strength to take up new initiatives in the project. Wish you all the Best !",
+    },
+    {
+      id: 2,
       name: "Barun Das",
       title: "Senior System Analyst",
       company: "IBM",
@@ -14,7 +22,7 @@ export default function Testimonials() {
       desc: "Astha is a quick learner. She has picked up many new technologies in frontend part. I think with this learning ability she should also start to take the ownership. Wish her a bright career ahead.",
     },
     {
-      id: 2,
+      id: 3,
       name: "ManuKoushik Chanda",
       title: "Management Consulting Analyst",
       company: "Accenture",
@@ -23,7 +31,7 @@ export default function Testimonials() {
       featured: false,
     },
     {
-      id: 3,
+      id: 4,
       name: "Naseem Ahmad",
       title: "Developer",
       company: "LearningMate",
@@ -31,7 +39,7 @@ export default function Testimonials() {
       desc: "A creative genius personality. I’ve had the pleasure of knowing Astha for the last one year, during which we have worked on multiple start up projects & Innovation. Above all, I was impressed with Astha’s ability in time management & project control. And of course, her project planning & control would be a true asset for any position which would require strategic or leadership skills and it comes with my heartfelt recommendation.",
     },
     {
-      id: 4,
+      id: 5,
       name: "Mrinal Pal",
       title: "Advisory System Analyst",
       company: "IBM",
