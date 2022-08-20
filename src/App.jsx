@@ -3,7 +3,7 @@ import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Work from "./components/work/Work";
-import Testimonials from "./components/testimonials/Testimonials";
+import Endorsements from "./components/endorsements/Endorsements";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import { useState } from "react";
@@ -18,7 +18,7 @@ function App() {
         <Intro />
         <Portfolio />
         <Work />
-        <Testimonials />
+        <Endorsements />
         <Contact />
       </div>
     </div>

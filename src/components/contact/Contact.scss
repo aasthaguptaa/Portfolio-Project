@@ -12,6 +12,10 @@
     flex: 0.7;
     overflow: hidden;
 
+    @include mobile {
+      flex: 1;
+    }
+
     .shape {
       width: 100%;
       height: 100%;
@@ -51,6 +55,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @include mobile {
+      flex: none;
+    }
 
     h2 {
       font-size: 35px;
@@ -121,6 +129,10 @@
         width: 400px;
         height: 40px;
         font-size: 14px;
+        background-color: white;
+        border: 1px solid grey;
+        border-radius: 5px;
+        padding: 5px;
 
         @include mobile {
           width: 200px;
@@ -128,11 +140,17 @@
         }
       }
 
+      //ajitesh ghoshal
+
       textarea {
-        resize:none;
+        resize: none;
         width: 400px;
         height: 300px;
         font-size: 14px;
+        border: 1px solid grey;
+        background-color: white;
+        border-radius: 5px;
+        padding: 5px;
 
         @include mobile {
           width: 200px;
