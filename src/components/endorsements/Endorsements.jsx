@@ -10,7 +10,7 @@ export default function Endorsements() {
       name: "Soumya Maiti",
       title: "People Manager",
       company: "IBM",
-      img: "assets/BarunDa.png",
+      img: "assets/soumyaMaiti.png",
       desc: "Keep up the good work Astha. You have demonstrated balance and maturity, use your strength to take up new initiatives in the project. Wish you all the Best !",
     },
     {
