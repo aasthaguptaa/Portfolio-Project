@@ -30,10 +30,10 @@ export default function Menu({
             <a href="#work">{t("works")}</a>
           </li>
           <hr />
-          <li onClick={() => setMenuOpen(false)}>
+          {/* <li onClick={() => setMenuOpen(false)}>
             <a href="#endorsements">{t("endorsements")}</a>
           </li>
-          <hr />
+          <hr /> */}
           <li onClick={() => setMenuOpen(false)}>
             <a href="#contact">{t("contact")}</a>
           </li>
