@@ -10,10 +10,12 @@ import { useState } from "react";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [openLangList, setOpenLangList] = useState(false);
+  
   return (
     <div className="app">
-      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} openLangList={openLangList} setOpenLangList={setOpenLangList} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} openLangList={openLangList} setOpenLangList={setOpenLangList} />
       <div className="sections">
         <Intro />
         <Portfolio />

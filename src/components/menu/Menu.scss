@@ -4,6 +4,53 @@
   background-color: #783030eb;
   position: fixed;
   top: 0;
+  left: -300px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.5s ease;
+
+  &.active {
+    left: 0px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 300px;
+    color: blanchedalmond;
+
+    hr {
+      margin-bottom: 25px;
+      opacity: 0.3;
+    }
+
+    li {
+      margin-bottom: 25px;
+      padding-left: 50px;
+
+      &:hover {
+        font-weight: 750;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: inherit;
+        color: inherit;
+      }
+    }
+  }
+}
+
+.lang {
+  width: 300px;
+  height: 100vh;
+  background-color: #783030eb;
+  position: fixed;
+  top: 0;
   right: -300px;
   z-index: 2;
   display: flex;

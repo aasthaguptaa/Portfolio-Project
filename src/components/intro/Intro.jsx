@@ -3,17 +3,18 @@ import { init } from "ityped";
 import { KeyboardArrowDown } from "@material-ui/icons";
 import AsthaFinal from "../../images/AsthaFinal.png";
 import "./Intro.scss";
+import { useTranslation } from "react-i18next";
 
 export default function Intro() {
   const textRef = useRef();
-
+  const { t } = useTranslation();
   useEffect(() => {
     init(textRef.current, {
       showCursor: true,
       cursorChar: "|",
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Developer", "Engineer", "Designer"],
+      strings: [t("developer"), t("engineer"), t("designer")],
     });
   }, []);
 
@@ -26,10 +27,10 @@ export default function Intro() {
       </div>
       <div className="center">
         <div className="wrapper">
-          <h2>Hello! I am</h2>
-          <h1>Astha Gupta</h1>
+          <h2>{t("helloIam")}</h2>
+          <h1>{t("asthaGupta")}</h1>
           <h3>
-            Creative
+            {t("creative")}
             <span ref={textRef}></span>
           </h3>
         </div>
