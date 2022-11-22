@@ -1,6 +1,7 @@
 import React from "react";
 import "./Topbar.scss";
 import Globe from "../../images/globe.svg";
+import { useTranslation } from "react-i18next";
 
 export default function Topbar({
   menuOpen,
@@ -8,6 +9,7 @@ export default function Topbar({
   openLangList,
   setOpenLangList,
 }) {
+  const { t } = useTranslation();
   return (
     <div className={"topbar " + ((menuOpen || openLangList) && "active")}>
       <div className="wrapper">
@@ -23,6 +25,29 @@ export default function Topbar({
         </div>
 
         <div className="right">
+          <ul>
+            <hr />
+            <li onClick={() => setMenuOpen(false)}>
+              <a href="#intro">{t("home")}</a>
+            </li>
+            <hr />
+            <li onClick={() => setMenuOpen(false)}>
+              <a href="#portfolio">{t("portfolio")}</a>
+            </li>
+            <hr />
+            <li onClick={() => setMenuOpen(false)}>
+              <a href="#work">{t("works")}</a>
+            </li>
+            <hr />
+            {/* <li onClick={() => setMenuOpen(false)}>
+            <a href="#endorsements">{t("endorsements")}</a>
+          </li>
+          <hr /> */}
+            <li onClick={() => setMenuOpen(false)}>
+              <a href="#contact">{t("contact")}</a>
+            </li>
+            <hr />
+          </ul>
           <div
             className="language"
             onClick={() => {

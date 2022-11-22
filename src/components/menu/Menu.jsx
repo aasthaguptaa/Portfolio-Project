@@ -1,5 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import UK from "../../images/UK.svg";
+import Greece from "../../images/Greece.svg";
+import UAE from "../../images/UAE.svg";
+import Germany from "../../images/Germany.svg";
 import "./Menu.scss";
 
 export default function Menu({
@@ -49,6 +53,7 @@ export default function Menu({
               setOpenLangList(false);
             }}
           >
+            <img src={UK} alt="UK" />
             <div>English</div>
           </li>
           <hr />
@@ -58,7 +63,28 @@ export default function Menu({
               setOpenLangList(false);
             }}
           >
+            <img src={Germany} alt="Germany" />
             <div>German</div>
+          </li>
+          <hr />
+          <li
+            onClick={() => {
+              handleLangChange("el");
+              setOpenLangList(false);
+            }}
+          >
+            <img src={Greece} alt="Greece" />
+            <div>Greek</div>
+          </li>
+          <hr />
+          <li
+            onClick={() => {
+              handleLangChange("ar");
+              setOpenLangList(false);
+            }}
+          >
+            <img src={UAE} alt="UAE" />
+            <div>Arabic</div>
           </li>
           <hr />
         </ul>
