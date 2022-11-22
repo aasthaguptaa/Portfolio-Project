@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio-Project/static/css/main.879af3a2.chunk.css",
-    "main.js": "/Portfolio-Project/static/js/main.7422a055.chunk.js",
-    "main.js.map": "/Portfolio-Project/static/js/main.7422a055.chunk.js.map",
+    "main.css": "/Portfolio-Project/static/css/main.6ae2e9ab.chunk.css",
+    "main.js": "/Portfolio-Project/static/js/main.94160508.chunk.js",
+    "main.js.map": "/Portfolio-Project/static/js/main.94160508.chunk.js.map",
     "runtime-main.js": "/Portfolio-Project/static/js/runtime-main.99d7c135.js",
     "runtime-main.js.map": "/Portfolio-Project/static/js/runtime-main.99d7c135.js.map",
-    "static/js/2.0cd618a7.chunk.js": "/Portfolio-Project/static/js/2.0cd618a7.chunk.js",
-    "static/js/2.0cd618a7.chunk.js.map": "/Portfolio-Project/static/js/2.0cd618a7.chunk.js.map",
+    "static/js/2.c12d3e84.chunk.js": "/Portfolio-Project/static/js/2.c12d3e84.chunk.js",
+    "static/js/2.c12d3e84.chunk.js.map": "/Portfolio-Project/static/js/2.c12d3e84.chunk.js.map",
     "index.html": "/Portfolio-Project/index.html",
-    "static/css/main.879af3a2.chunk.css.map": "/Portfolio-Project/static/css/main.879af3a2.chunk.css.map",
-    "static/js/2.0cd618a7.chunk.js.LICENSE.txt": "/Portfolio-Project/static/js/2.0cd618a7.chunk.js.LICENSE.txt",
+    "static/css/main.6ae2e9ab.chunk.css.map": "/Portfolio-Project/static/css/main.6ae2e9ab.chunk.css.map",
+    "static/js/2.c12d3e84.chunk.js.LICENSE.txt": "/Portfolio-Project/static/js/2.c12d3e84.chunk.js.LICENSE.txt",
     "static/media/AsthaFinal.0ecdfb24.png": "/Portfolio-Project/static/media/AsthaFinal.0ecdfb24.png",
+    "static/media/Germany.c942821f.svg": "/Portfolio-Project/static/media/Germany.c942821f.svg",
+    "static/media/Greece.bcdfeaa9.svg": "/Portfolio-Project/static/media/Greece.bcdfeaa9.svg",
+    "static/media/UAE.7008b028.svg": "/Portfolio-Project/static/media/UAE.7008b028.svg",
+    "static/media/UK.5b332bcf.svg": "/Portfolio-Project/static/media/UK.5b332bcf.svg",
     "static/media/getFetch.cjs": "/Portfolio-Project/static/media/getFetch.5fde86e3.cjs",
     "static/media/globe.643b5981.svg": "/Portfolio-Project/static/media/globe.643b5981.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.99d7c135.js",
-    "static/js/2.0cd618a7.chunk.js",
-    "static/css/main.879af3a2.chunk.css",
-    "static/js/main.7422a055.chunk.js"
+    "static/js/2.c12d3e84.chunk.js",
+    "static/css/main.6ae2e9ab.chunk.css",
+    "static/js/main.94160508.chunk.js"
   ]
 }
