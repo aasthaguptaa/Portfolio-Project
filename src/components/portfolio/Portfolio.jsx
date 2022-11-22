@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import "./Portfolio.scss";
 import { data } from "../../data";
+import { useTranslation } from "react-i18next";
 
 export default function Portfolio() {
-  const [currentTab, setCurrentTab] = useState("Experience");
+  const { t } = useTranslation();
+  const [currentTab, setCurrentTab] = useState(t("experience"));
   return (
     <div className="portfolio" id="portfolio">
-      <h1>Portfolio</h1>
+      <h1>{t("portfolio")}</h1>
       <hr className="hrstyle" />
       <div className="mainContent">
         <div className="tabWrapper">
-          {data.map((tab, i) => (
+          {data(t).map((tab, i) => (
             <div
               key={i}
               onClick={() => {
@@ -24,7 +26,7 @@ export default function Portfolio() {
         </div>
 
         <div className="container">
-          {data.map((item) => {
+          {data(t).map((item) => {
             if (item.type === currentTab) {
               return item.subData.map((d) => (
                 <div className="item">
@@ -36,7 +38,7 @@ export default function Portfolio() {
 
                     {d.link ? (
                       <a href={d.link} target="_blank" rel="noreferrer">
-                        know more..
+                        {t("knowMore")}
                       </a>
                     ) : null}
                   </div>

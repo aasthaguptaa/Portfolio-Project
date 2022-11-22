@@ -51,6 +51,7 @@ export default function Menu({
             onClick={() => {
               handleLangChange("en");
               setOpenLangList(false);
+              window.location.reload(false)
             }}
           >
             <img src={UK} alt="UK" />
@@ -61,6 +62,7 @@ export default function Menu({
             onClick={() => {
               handleLangChange("de");
               setOpenLangList(false);
+              window.location.reload(false)
             }}
           >
             <img src={Germany} alt="Germany" />
@@ -71,6 +73,7 @@ export default function Menu({
             onClick={() => {
               handleLangChange("el");
               setOpenLangList(false);
+              window.location.reload(false)
             }}
           >
             <img src={Greece} alt="Greece" />
@@ -81,6 +84,7 @@ export default function Menu({
             onClick={() => {
               handleLangChange("ar");
               setOpenLangList(false);
+              window.location.reload(false)
             }}
           >
             <img src={UAE} alt="UAE" />

@@ -9,5 +9,28 @@
   "portfolio": "Portfolio",
   "works": "Works",
   "endorsements": "Endorsements",
-  "contact": "Contact"
+
+  "contact": "Contact",
+  "contactInformation": "Contact Information",
+  "leaveMeMessage": "Leave me a message!",
+  "enterYourEmail": "Enter your Email",
+  "message": "Message",
+  "send": "Send",
+  "thanks": "Thanks, I'll get back to you ASAP",
+
+  "clickToKnowMore": "Click here to know more!",
+  "work": "Work",
+  "xSpark": "X-Spark",
+  "xSparkDesc": "A product, which generates electricity using human weight/pressure.",
+  "smartNoticeBoard": "Smart Notice Board",
+  "smartNoticeBoardDesc": "A product integrated with X-Spark which displays a customized message whenever the user steps on the X-Spark mat, meanwhile reducing the continuous consumption of electricity.",
+  "toDoList": "To-Do-List",
+  "toDoListDesc": "An app that allows users to add, edit, and delete tasks they want to work on, and also mark tasks as complete without deleting them.",
+  "knowMore": "know more..",
+
+  "experience": "Experience",
+  "publications": "Publications",
+  "patent": "Patent",
+  "honorsAwards": "Honors & Awards",
+  "badgesCertifications": "Badges & Certifications"
 }

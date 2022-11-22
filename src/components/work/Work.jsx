@@ -1,36 +1,38 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./Work.scss";
 
 const Work = () => {
-  const data = [
+  const { t } = useTranslation();
+  const data = (t) => [
     {
       id: "1",
-      title: "X-Spark",
-      desc: "A product, which generates electricity using human weight/pressure.",
+      title: t("xSpark"),
+      desc: t("xSparkDesc"),
       link: "https://ieeexplore.ieee.org/document/9033755",
       img: "assets/bulb.png",
     },
     {
       id: "2",
-      title: "Smart Notice Board",
-      desc: "A product integrated with X-Spark which displays a customized message whenever the user steps on the X-Spark mat, meanwhile reducing the continuous consumption of electricity.",
+      title: t("smartNoticeBoard"),
+      desc: t("smartNoticeBoardDesc"),
       link: "https://medium.com/@HR03/smart-notice-board-using-x-spark-mat-1c508a5e84f3",
       img: "assets/SNB1.jpeg",
     },
     {
       id: "3",
-      title: "To-Do-List",
-      desc: "An app that allows users to add, edit, and delete tasks they want to work on, and also mark tasks as complete without deleting them.",
+      title: t("toDoList"),
+      desc: t("toDoListDesc"),
       link: "https://aasthaguptaa.github.io/TaskList",
       img: "assets/TaskList.png",
     }
   ];
   return (
     <div className="work" id="work">
-      <h1>Work</h1>
+      <h1>{t("work")}</h1>
       <hr className="hrstyle" />
       <div className="container">
-        {data.map((item) => (
+        {data(t).map((item) => (
           <div className="card">
             <img className="user" src={item.img} alt="" />
             <div className="title"> {item.title}</div>
@@ -41,7 +43,7 @@ const Work = () => {
               rel="noreferrer"
               className="description"
             >
-              Click here to know more!
+              {t("clickToKnowMore")}
             </a>
           </div>
         ))}

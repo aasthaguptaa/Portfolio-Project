@@ -1,6 +1,6 @@
-export const data = [
+export const data = (t) => [
   {
-    type: "Experience",
+    type: t("experience"),
     id: "1",
     subData: [
       {
@@ -35,7 +35,7 @@ export const data = [
     ],
   },
   {
-    type: "Publications",
+    type: t("publications"),
     id: "2",
     subData: [
       {
@@ -81,7 +81,7 @@ export const data = [
     ],
   },
   {
-    type: "Patent",
+    type: t("patent"),
     id: "3",
     subData: [
       {
@@ -96,7 +96,7 @@ export const data = [
     ],
   },
   {
-    type: "Honors & Awards",
+    type: t("honorsAwards"),
     id: "4",
     subData: [
       {
@@ -175,7 +175,7 @@ export const data = [
     ],
   },
   {
-    type: "Badges & Certifications",
+    type: t("badgesCertifications"),
     id: "5",
     subData: [
       {

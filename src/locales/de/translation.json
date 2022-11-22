@@ -9,5 +9,28 @@
   "portfolio": "Portfolio",
   "works": "Funktioniert",
   "endorsements": "Vermerke",
-  "contact": "Kontakt"
+  "contact": "Kontakt",
+
+  "contactInformation": "Kontaktinformationen",
+  "leaveMeMessage": "Hinterlassen Sie mir eine Nachricht!",
+  "enterYourEmail": "Geben sie ihre E-Mail Adresse ein",
+  "message": "Nachricht",
+  "send": "Senden",
+  "thanks": "Danke, ich melde mich schnellstmöglich bei Ihnen",
+
+  "clickToKnowMore": "Klicken Sie hier, um mehr zu erfahren!",
+  "work": "Arbeit",
+  "xSpark": "X-Spark",
+  "xSparkDesc": "Ein Produkt, das durch menschliches Gewicht/Druck Strom erzeugt.",
+  "smartNoticeBoard": "Intelligentes Schwarzes Brett",
+  "smartNoticeBoardDesc": "Ein in X-Spark integriertes Produkt, das eine personalisierte Nachricht anzeigt, wenn der Benutzer auf die X-Spark-Matte tritt, und gleichzeitig den kontinuierlichen Stromverbrauch reduziert.",
+  "toDoList": "Aufgabenliste",
+  "toDoListDesc": "Eine App, mit der Benutzer Aufgaben hinzufügen, bearbeiten und löschen können, an denen sie arbeiten möchten, und Aufgaben als abgeschlossen markieren, ohne sie zu löschen.",
+  "knowMore": "mehr wissen..",
+
+  "experience": "Erfahrung",
+  "publications": "Veröffentlichungen",
+  "patent": "Patent",
+  "honorsAwards": "Ehrungen & Auszeichnungen",
+  "badgesCertifications": "Abzeichen & Zertifizierungen"
 }
