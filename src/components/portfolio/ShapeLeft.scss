@@ -1,0 +1,24 @@
+@import "../../global.scss";
+
+.left_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 85%;
+  overflow:hidden;
+
+
+  .shape_left {
+    color: white;
+    height: 80px;
+    text-transform: capitalize;
+    width: 60%;
+    padding: 25px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+    background: #a36363;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
