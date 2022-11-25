@@ -2,23 +2,33 @@
 
 .left_container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  width: 85%;
-  overflow:hidden;
+  // width: 85%;
+  // overflow:hidden;
 
 
   .shape_left {
     color: white;
-    height: 80px;
+    height: 90%;
     text-transform: capitalize;
-    width: 60%;
+    width: 150px;
     padding: 25px;
-    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
     border-top-right-radius: 80px;
     background: #a36363;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+
+    .hrstyle {
+      border: 0.5px solid $mainColor;
+      background-color: $mainColor;
+      width: 100%;
+      margin: 10px auto;
+    }
   }
 }

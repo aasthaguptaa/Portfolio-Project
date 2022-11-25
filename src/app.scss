@@ -1,45 +1,40 @@
 @import "../src/global.scss";
 
-.app{
-    height: 100vh;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-    scrollbar-width: none;
-    &::-webkit-scrollbar{
-        display: none;
-    }
+.app {
+  height: 100vh;
+  scroll-behavior: smooth;
+  // scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
-    @include mobile {
-        scroll-snap-type: none;
-      }
+  @include mobile {
+    scroll-snap-type: none;
+  }
 }
 
-.sections{
-    width: 100%;
-    height: calc(100vh - 50px);
-    // height: 100vh;
+.sections {
+  width: 100%;
+  height: calc(100vh - 50px);
+  // height: 100vh;
+  position: relative;
+  top: 50px;
+  scroll-behavior: smooth;
+  // scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
-    position: relative;
+  @include mobile {
+    scroll-snap-type: none;
+  }
+
+  > * {
+    width: 100vw;
     top: 50px;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-    scrollbar-width: none;
-    &::-webkit-scrollbar{
-        display: none;
-    }
-
-    @include mobile {
-        scroll-snap-type: none;
-      }
-
-    > *{
-        width: 100vw;
-        top: 50px;
-        height: calc(100vh - 50px);
-        scroll-snap-align: start ;
-    }
+    height: calc(100vh - 50px);
+    scroll-snap-align: start;
+  }
 }
-
-
-
-

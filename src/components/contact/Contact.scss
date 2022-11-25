@@ -3,191 +3,227 @@
 .contact {
   background-color: #ffc0cb99;
   display: flex;
-
-  @include mobile {
-    flex-direction: column;
-  }
-
-  .right {
-    flex: 0.7;
+  margin:0;
+  flex-direction: column;
+  height: auto;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 30px;
+    color: #7d2323e6;
+    margin: 15px auto;
     overflow: hidden;
 
     @include mobile {
-      flex: 1;
+      font-size: 20px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .hrstyle {
+    border: 0.5px solid $mainColor;
+    background-color: $mainColor;
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  img {
+    transform: scaleY(-1);
+  }
+
+  .contactContainer {
+    display: flex;
+    height: auto;
+    width: 100%;
+
+    @include mobile {
+      flex-direction: column;
     }
 
-    .shape {
-      width: 100%;
-      height: 100%;
-      background-color: #6a1e1e9e;
-      border-top-left-radius: 100%;
-      border-bottom-left-radius: 100%;
+    .right {
+      flex: 0.7;
+      overflow: hidden;
+
+      @include mobile {
+        flex: 1;
+      }
+
+      .shape {
+        width: 100%;
+        height: 100%;
+        background-color: #6a1e1e9e;
+        border-top-left-radius: 100%;
+        border-bottom-left-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include mobile {
+          // height: 700px;
+          margin-top: 50px;
+          border-top-right-radius: 90%;
+          border-top-left-radius: 90%;
+          border-bottom-left-radius: 0%;
+        }
+
+        .phoneIcon {
+          font-size: 400px;
+          color: #ffc0cb99;
+          transform: rotateX(180deg);
+          transform: rotateY(180deg);
+          margin-left: 20%;
+          margin-top: 10%;
+
+          @include mobile {
+            font-size: 150px;
+            margin: auto;
+          }
+        }
+      }
+    }
+    .left {
+      flex: 1;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
 
       @include mobile {
-        // height: 700px;
-        margin-top: 50px;
-        border-top-right-radius: 90%;
-        border-top-left-radius: 90%;
-        border-bottom-left-radius: 0%;
+        flex: none;
+        margin-top: 20px;
       }
 
-      .phoneIcon {
-        font-size: 400px;
-        color: #ffc0cb99;
-        transform: rotateX(180deg);
-        transform: rotateY(180deg);
-        margin-left: 20%;
-        margin-top: 10%;
-
+      h2 {
+        font-size: 30px;
+        overflow: hidden;
+        margin: 10px auto;
         @include mobile {
-          font-size: 150px;
-          margin: auto;
-        }
-      }
-    }
-  }
-  .left {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    @include mobile {
-      flex: none;
-    }
-
-    h2 {
-      font-size: 30px;
-      overflow: hidden;
-      margin: 10px auto;
-      @include mobile {
-        font-size: 25px;
-      }
-    }
-
-    .itemContainer {
-      display: flex;
-      align-items: center;
-      margin-left: 40px;
-      overflow: hidden;
-
-      a {
-        color: black;
-        &:hover {
-          color: $mainColor;
+          font-size: 25px;
         }
       }
 
-      .icon {
-        font-size: 50px;
-        margin-right: 25px;
+      .itemContainer {
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        overflow: hidden;
 
-        @include mobile {
-          font-size: 40px;
+        a {
+          color: black;
+          &:hover {
+            color: $mainColor;
+          }
+        }
+
+        .icon {
+          font-size: 50px;
+          margin-right: 25px;
+
+          @include mobile {
+            font-size: 40px;
+          }
+        }
+
+        span {
+          font-size: 15px;
+          font-weight: 400;
         }
       }
 
-      span {
-        font-size: 15px;
-        font-weight: 400;
-      }
-    }
-
-    .hrstyle {
-      border: 1px solid #ffc0cb99;
-      background-color: $mainColor;
-      width: 70%;
-      margin: 10px auto;
-    }
-
-    form {
-      width: 70%;
-      height: 70%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      // justify-content: center;
-      gap: 20px;
-
-      @include mobile {
-        gap: 10px;
+      .hrstyle {
+        border: 1px solid #ffc0cb99;
+        background-color: $mainColor;
+        width: 70%;
+        margin: 10px auto;
       }
 
-      h5 {
-        font-size: 15px;
-        height: 30px;
+      form {
+        width: 70%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // justify-content: center;
+        gap: 20px;
 
         @include mobile {
+          gap: 10px;
+        }
+
+        h5 {
+          font-size: 15px;
+          height: 30px;
+
+          @include mobile {
+            font-size: 14px;
+          }
+        }
+        input {
+          width: 400px;
+          height: 40px;
           font-size: 14px;
+          background-color: white;
+          border: 1px solid grey;
+          border-radius: 5px;
+          padding: 5px;
+
+          @include mobile {
+            width: 200px;
+            height: 20px;
+          }
         }
-      }
-      input {
-        width: 400px;
-        height: 40px;
-        font-size: 14px;
-        background-color: white;
-        border: 1px solid grey;
-        border-radius: 5px;
-        padding: 5px;
 
-        @include mobile {
-          width: 200px;
-          height: 20px;
+        //ajitesh ghoshal
+
+        textarea {
+          resize: none;
+          width: 400px;
+          height: 300px;
+          font-size: 14px;
+          border: 1px solid grey;
+          background-color: white;
+          border-radius: 5px;
+          padding: 5px;
+
+          @include mobile {
+            width: 200px;
+            height: 100px;
+          }
         }
-      }
+        .disable {
+          width: 150px;
+          height: 30px;
+          color: white;
+          background-color: rgb(207, 199, 199);
+          border: none;
+          border-radius: 10px;
+          font-weight: 500;
+          cursor: pointer;
 
-      //ajitesh ghoshal
-
-      textarea {
-        resize: none;
-        width: 400px;
-        height: 300px;
-        font-size: 14px;
-        border: 1px solid grey;
-        background-color: white;
-        border-radius: 5px;
-        padding: 5px;
-
-        @include mobile {
-          width: 200px;
-          height: 100px;
+          &:focus {
+            outline: none;
+          }
         }
-      }
-      .disable {
-        width: 150px;
-        height: 30px;
-        color: white;
-        background-color: rgb(207, 199, 199);
-        border: none;
-        border-radius: 10px;
-        font-weight: 500;
-        cursor: pointer;
+        .button {
+          width: 150px;
+          height: 30px;
+          color: white;
+          background-color: crimson;
+          border: none;
+          border-radius: 10px;
+          font-weight: 500;
+          cursor: pointer;
 
-        &:focus {
-          outline: none;
+          &:focus {
+            outline: none;
+          }
         }
-      }
-      .button {
-        width: 150px;
-        height: 30px;
-        color: white;
-        background-color: crimson;
-        border: none;
-        border-radius: 10px;
-        font-weight: 500;
-        cursor: pointer;
 
-        &:focus {
-          outline: none;
+        span {
+          color: green;
         }
-      }
-
-      span {
-        color: green;
       }
     }
   }
