@@ -1,27 +1,36 @@
 {
   "files": {
-    "main.css": "/Portfolio-Project/static/css/main.fff09be2.chunk.css",
-    "main.js": "/Portfolio-Project/static/js/main.365f3b1b.chunk.js",
-    "main.js.map": "/Portfolio-Project/static/js/main.365f3b1b.chunk.js.map",
+    "main.css": "/Portfolio-Project/static/css/main.f4f5b46f.chunk.css",
+    "main.js": "/Portfolio-Project/static/js/main.9c499f4d.chunk.js",
+    "main.js.map": "/Portfolio-Project/static/js/main.9c499f4d.chunk.js.map",
     "runtime-main.js": "/Portfolio-Project/static/js/runtime-main.99d7c135.js",
     "runtime-main.js.map": "/Portfolio-Project/static/js/runtime-main.99d7c135.js.map",
-    "static/js/2.10c65d42.chunk.js": "/Portfolio-Project/static/js/2.10c65d42.chunk.js",
-    "static/js/2.10c65d42.chunk.js.map": "/Portfolio-Project/static/js/2.10c65d42.chunk.js.map",
+    "static/js/2.bd8c49f5.chunk.js": "/Portfolio-Project/static/js/2.bd8c49f5.chunk.js",
+    "static/js/2.bd8c49f5.chunk.js.map": "/Portfolio-Project/static/js/2.bd8c49f5.chunk.js.map",
     "index.html": "/Portfolio-Project/index.html",
-    "static/css/main.fff09be2.chunk.css.map": "/Portfolio-Project/static/css/main.fff09be2.chunk.css.map",
-    "static/js/2.10c65d42.chunk.js.LICENSE.txt": "/Portfolio-Project/static/js/2.10c65d42.chunk.js.LICENSE.txt",
+    "static/css/main.f4f5b46f.chunk.css.map": "/Portfolio-Project/static/css/main.f4f5b46f.chunk.css.map",
+    "static/js/2.bd8c49f5.chunk.js.LICENSE.txt": "/Portfolio-Project/static/js/2.bd8c49f5.chunk.js.LICENSE.txt",
     "static/media/AsthaFinal.0ecdfb24.png": "/Portfolio-Project/static/media/AsthaFinal.0ecdfb24.png",
+    "static/media/Azure-Fundamentals.dd49b3c5.png": "/Portfolio-Project/static/media/Azure-Fundamentals.dd49b3c5.png",
+    "static/media/Carbon-IBM.46f84642.png": "/Portfolio-Project/static/media/Carbon-IBM.46f84642.png",
     "static/media/Germany.c942821f.svg": "/Portfolio-Project/static/media/Germany.c942821f.svg",
     "static/media/Greece.bcdfeaa9.svg": "/Portfolio-Project/static/media/Greece.bcdfeaa9.svg",
+    "static/media/IBM_Certified_Advocate_-_IBM_Cloud_v1.1ef80657.png": "/Portfolio-Project/static/media/IBM_Certified_Advocate_-_IBM_Cloud_v1.1ef80657.png",
+    "static/media/JavaScript-Front-End-Development.7b2e27ec.png": "/Portfolio-Project/static/media/JavaScript-Front-End-Development.7b2e27ec.png",
+    "static/media/Mental-Health-Ally.75fed10c.png": "/Portfolio-Project/static/media/Mental-Health-Ally.75fed10c.png",
+    "static/media/SmartNoticeBoard.9892b090.png": "/Portfolio-Project/static/media/SmartNoticeBoard.9892b090.png",
+    "static/media/TaskList.b3fbc2e7.png": "/Portfolio-Project/static/media/TaskList.b3fbc2e7.png",
     "static/media/UAE.7008b028.svg": "/Portfolio-Project/static/media/UAE.7008b028.svg",
     "static/media/UK.5b332bcf.svg": "/Portfolio-Project/static/media/UK.5b332bcf.svg",
+    "static/media/bulb.83d661fb.png": "/Portfolio-Project/static/media/bulb.83d661fb.png",
     "static/media/getFetch.cjs": "/Portfolio-Project/static/media/getFetch.5fde86e3.cjs",
-    "static/media/globe.643b5981.svg": "/Portfolio-Project/static/media/globe.643b5981.svg"
+    "static/media/globe.643b5981.svg": "/Portfolio-Project/static/media/globe.643b5981.svg",
+    "static/media/pattern.ec2995bf.svg": "/Portfolio-Project/static/media/pattern.ec2995bf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.99d7c135.js",
-    "static/js/2.10c65d42.chunk.js",
-    "static/css/main.fff09be2.chunk.css",
-    "static/js/main.365f3b1b.chunk.js"
+    "static/js/2.bd8c49f5.chunk.js",
+    "static/css/main.f4f5b46f.chunk.css",
+    "static/js/main.9c499f4d.chunk.js"
   ]
 }
