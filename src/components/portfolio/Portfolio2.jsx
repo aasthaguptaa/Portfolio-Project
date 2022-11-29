@@ -11,7 +11,7 @@ const Portfolio2 = () => {
 
   return (
     <div className="portfolio_container" id="portfolio">
-      <div>
+      <div className="d-flex flex-column">
         <h1>{t("portfolio")}</h1>
         <hr className="hrstyle" />
       </div>

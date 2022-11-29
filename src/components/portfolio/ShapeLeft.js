@@ -30,7 +30,6 @@ const ShapeLeft = (props) => {
                         </a>
                       ) : null}
                     </li>
-                    <img src={d.img} alt="" />
                   </div>
                 ));
               } else return null;

@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import Bulb from "../../images/bulb.png"
 import TaskList from "../../images/TaskList.png"
 import SmartNoticeBoard from "../../images/SmartNoticeBoard.png"
+import pattern from "../../images/workWave.svg";
 
 
 export default function Work1() {
@@ -83,6 +84,9 @@ export default function Work1() {
           className="arrow left"
           onClick={() => handleClick("left")}
         />
+      </div>
+      <div>
+      <img src={pattern} alt="pattern1"/>
       </div>
     </div>
   );

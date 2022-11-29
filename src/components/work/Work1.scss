@@ -3,55 +3,64 @@
 .work {
   display: flex;
   flex-direction: column;
-  background-color: #5a1616;
+  background-color: #e0ffff;
   color: white;
 
   h1 {
     font-size: 30px;
-    color: white;
+    color: #5a1616;
     margin: 15px auto;
     overflow: hidden;
 
     @include mobile {
       font-size: 20px;
-      margin-top: 0px;
+      margin-top: 20px;
       margin-bottom: 10px;
     }
   }
 
   .hrstyle {
-    border: 0.5px solid white;
-    background-color: $mainColor;
+    border: 0.5px solid #5a1616;
+    background-color: #5a1616;
     width: 90vw;
     margin: 0 auto;
   }
 
   .sliderContainer {
     display: flex;
-    height: 400px;
+    height: 80vh;
     align-items: center;
     justify-content: center;
     // position: relative;
 
     .arrow {
       font-size: 50px;
-      color: white;
+      color: #5a1616;
       position: absolute;
       cursor: pointer;
 
       @include mobile {
-        display: none;
+        // display: none;
+      font-size: 20px;
+
       }
 
       &.left {
         left: 100px;
+        @include mobile {
+          left: 20px;
+        }
       }
 
       &.right {
         right: 100px;
+
+        @include mobile {
+          right: 20px;
+        }
       }
     }
-
+     
     .slider {
       height: 350px;
       display: flex;
@@ -60,9 +69,9 @@
       transition: all 0.8s ease-out;
 
       @include mobile {
-        height: 100vh;
-        flex-direction: column;
-        justify-content: center;
+        // height: 100vh;
+        // flex-direction: column;
+        // justify-content: center;
       }
 
       .container {
@@ -84,7 +93,7 @@
           justify-content: center;
 
           @include mobile {
-            width: 80%;
+            width: 60%;
             height: 150px;
             margin: 15px 0;
           }
