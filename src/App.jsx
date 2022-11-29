@@ -39,14 +39,14 @@ function App() {
         <Intro />
         <Experience />
         <Patent />
-        <Badges/>
+        <Badges />
         <Work1 />
-        
-        <Publications/>
-        <Awards/>
-        
+
+        {/* <Publications/> */}
+        {/* <Awards/> */}
+
         {/* <Portfolio2/> */}
-        <Portfolio />
+        {/* <Portfolio /> */}
         {/* <Work/> */}
         {/* <Endorsements /> */}
         <Contact />
