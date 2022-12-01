@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio-Project/static/css/main.9b9fed79.chunk.css",
-    "main.js": "/Portfolio-Project/static/js/main.2a515547.chunk.js",
-    "main.js.map": "/Portfolio-Project/static/js/main.2a515547.chunk.js.map",
+    "main.css": "/Portfolio-Project/static/css/main.e39f921b.chunk.css",
+    "main.js": "/Portfolio-Project/static/js/main.c4d01f74.chunk.js",
+    "main.js.map": "/Portfolio-Project/static/js/main.c4d01f74.chunk.js.map",
     "runtime-main.js": "/Portfolio-Project/static/js/runtime-main.99d7c135.js",
     "runtime-main.js.map": "/Portfolio-Project/static/js/runtime-main.99d7c135.js.map",
     "static/js/2.c35695d0.chunk.js": "/Portfolio-Project/static/js/2.c35695d0.chunk.js",
     "static/js/2.c35695d0.chunk.js.map": "/Portfolio-Project/static/js/2.c35695d0.chunk.js.map",
     "index.html": "/Portfolio-Project/index.html",
-    "static/css/main.9b9fed79.chunk.css.map": "/Portfolio-Project/static/css/main.9b9fed79.chunk.css.map",
+    "static/css/main.e39f921b.chunk.css.map": "/Portfolio-Project/static/css/main.e39f921b.chunk.css.map",
     "static/js/2.c35695d0.chunk.js.LICENSE.txt": "/Portfolio-Project/static/js/2.c35695d0.chunk.js.LICENSE.txt",
     "static/media/AsthaFinal.0ecdfb24.png": "/Portfolio-Project/static/media/AsthaFinal.0ecdfb24.png",
     "static/media/Azure-Fundamentals.dd49b3c5.png": "/Portfolio-Project/static/media/Azure-Fundamentals.dd49b3c5.png",
@@ -23,6 +23,7 @@
     "static/media/IBM_New_Collar_Professional_Skills.4999758a.png": "/Portfolio-Project/static/media/IBM_New_Collar_Professional_Skills.4999758a.png",
     "static/media/JavaScript-Front-End-Development.7b2e27ec.png": "/Portfolio-Project/static/media/JavaScript-Front-End-Development.7b2e27ec.png",
     "static/media/Mental-Health-Ally.75fed10c.png": "/Portfolio-Project/static/media/Mental-Health-Ally.75fed10c.png",
+    "static/media/ResearchPaper.7d750a7a.png": "/Portfolio-Project/static/media/ResearchPaper.7d750a7a.png",
     "static/media/SmartNoticeBoard.9892b090.png": "/Portfolio-Project/static/media/SmartNoticeBoard.9892b090.png",
     "static/media/TaskList.b3fbc2e7.png": "/Portfolio-Project/static/media/TaskList.b3fbc2e7.png",
     "static/media/Team_Essentials.8ff68784.png": "/Portfolio-Project/static/media/Team_Essentials.8ff68784.png",
@@ -40,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.99d7c135.js",
     "static/js/2.c35695d0.chunk.js",
-    "static/css/main.9b9fed79.chunk.css",
-    "static/js/main.2a515547.chunk.js"
+    "static/css/main.e39f921b.chunk.css",
+    "static/js/main.c4d01f74.chunk.js"
   ]
 }
