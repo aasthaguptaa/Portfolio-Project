@@ -34,7 +34,7 @@ export default function Intro() {
             <span ref={textRef}></span>
           </h3>
         </div>
-        <a href="#portfolio">
+        <a href="#experience">
           <KeyboardArrowDown style={{ fontSize: "50px", color: "#7d2323b5" }} />
         </a>
       </div>

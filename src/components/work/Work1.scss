@@ -107,7 +107,7 @@
 
             .leftContainer {
               width: 90%;
-              height: 70%;
+              height: 85%;
               display: flex;
               flex-direction: column;
               justify-content: space-between;
@@ -117,32 +117,31 @@
                 height: 100%;
               }
 
-              // .imgContainer {
-              //   width: 40px;
-              //   height: 40px;
-              //   border-radius: 50%;
-              //   background-color: aqua;
-              //   display: flex;
-              //   align-items: center;
-              //   justify-content: center;
+              .imgContainer {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
-              //   @include mobile {
-              //     width: 20px;
-              //     height: 20px;
-              //   }
+                @include mobile {
+                  width: 20px;
+                  height: 20px;
+                }
 
-              //   img {
-              //     width: 25px;
+                img {
+                  width: 25px;
 
-              //     @include mobile {
-              //       width: 15px;
-              //     }
-              //   }
-              // }
+                  @include mobile {
+                    width: 15px;
+                  }
+                }
+              }
 
               h2 {
-                font-size: 20px;
-                color: #7d2323e6;
+                font-size: 18px;
+                color: #5a1616;
 
                 @include mobile {
                   font-size: 13px;
@@ -150,10 +149,14 @@
               }
 
               p {
-                font-size: 13px;
+                font-size: 12px;
                 @include mobile {
                   display: none;
                 }
+              }
+              a{
+                font-size: 12px;
+                color:blue;
               }
 
               span {

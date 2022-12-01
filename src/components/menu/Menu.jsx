@@ -26,12 +26,16 @@ export default function Menu({
             <a href="#intro">{t("home")}</a>
           </li>
           <hr />
-          {/* <li onClick={() => setMenuOpen(false)}>
-            <a href="#portfolio">{t("portfolio")}</a>
+          <li onClick={() => setMenuOpen(false)}>
+            <a href="#experience">{t("experience")}</a>
           </li>
-          <hr /> */}
+          <hr />
           <li onClick={() => setMenuOpen(false)}>
             <a href="#patent">{t("patent")}</a>
+          </li>
+          <hr />
+          <li onClick={() => setMenuOpen(false)}>
+            <a href="#work">{t("works")}</a>
           </li>
           <hr />
           <li onClick={() => setMenuOpen(false)}>
@@ -39,20 +43,11 @@ export default function Menu({
           </li>
           <hr />
           <li onClick={() => setMenuOpen(false)}>
-            <a href="#experience">{t("experience")}</a>
+            <a href="#honorsAwards">{t("honorsAwards")}</a>
           </li>
           <hr />
           <li onClick={() => setMenuOpen(false)}>
             <a href="#publications">{t("publications")}</a>
-          </li>
-          <hr />
-          <li onClick={() => setMenuOpen(false)}>
-            <a href="#honorsAwards">{t("honorsAwards")}</a>
-          </li>
-          <hr />
-          
-          <li onClick={() => setMenuOpen(false)}>
-            <a href="#work">{t("works")}</a>
           </li>
           <hr />
           {/* <li onClick={() => setMenuOpen(false)}>
@@ -63,6 +58,10 @@ export default function Menu({
             <a href="#contact">{t("contact")}</a>
           </li>
           <hr />
+          {/* <li onClick={() => setMenuOpen(false)}>
+            <a href="#portfolio">{t("portfolio")}</a>
+          </li>
+          <hr /> */}
         </ul>
       </div>
       <div className={"lang " + (openLangList && "active")}>
@@ -72,7 +71,7 @@ export default function Menu({
             onClick={() => {
               handleLangChange("en");
               setOpenLangList(false);
-              window.location.reload(false)
+              window.location.reload(false);
             }}
           >
             <img src={UK} alt="UK" />
@@ -83,7 +82,7 @@ export default function Menu({
             onClick={() => {
               handleLangChange("de");
               setOpenLangList(false);
-              window.location.reload(false)
+              window.location.reload(false);
             }}
           >
             <img src={Germany} alt="Germany" />
@@ -94,7 +93,7 @@ export default function Menu({
             onClick={() => {
               handleLangChange("el");
               setOpenLangList(false);
-              window.location.reload(false)
+              window.location.reload(false);
             }}
           >
             <img src={Greece} alt="Greece" />
@@ -105,7 +104,7 @@ export default function Menu({
             onClick={() => {
               handleLangChange("ar");
               setOpenLangList(false);
-              window.location.reload(false)
+              window.location.reload(false);
             }}
           >
             <img src={UAE} alt="UAE" />

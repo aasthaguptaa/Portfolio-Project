@@ -13,34 +13,31 @@ const Patent = () => {
         <h1>{t("patentAndResearchPaper")}</h1>
         <hr className="hrstyle" />
       </div>
-   
-        <div className="container">
-          {data(t).map((item) => {
-            if (item.id === "3") {
-              return item.subData.map((d) => (
-                <div className="item">
-                  {/* <div className="itemDesc">
-                    <div className="title">{d.title}</div>
-                    <div className="subTitle">{d.subTitle}</div>
-                    <div className="description">{d.description}</div>
-                    <div className="description">{d.date}</div>
+      <div className="container">
+        {data(t).map((item) => {
+          if (item.id === "3") {
+            return item.subData.map((d) => (
+              <div className="item">
+                <img src={d.img} alt="" />
 
-                    {d.link ? (
-                      <a href={d.link} target="_blank" rel="noreferrer">
-                        {t("knowMore")}
-                      </a>
-                    ) : null}
-                  </div> */}
-                  <img src={d.img} alt="" />
-                </div>
-              ));
-            } else {
-              return null;
-            }
-          })}
-        </div>
-        <img src={pattern} alt="pattern1"/>
+                <div className="title">{d.title}</div>
 
+                <div className="description">{d.description}</div>
+                <div className="date">{d.date}</div>
+
+                {d.link ? (
+                  <a href={d.link} target="_blank" rel="noreferrer">
+                    {t("knowMore")}
+                  </a>
+                ) : null}
+              </div>
+            ));
+          } else {
+            return null;
+          }
+        })}
+      </div>
+      <img src={pattern} alt="pattern1" />
     </div>
   );
 };

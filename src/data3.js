@@ -16,6 +16,7 @@ import CognitivePractitioner from "../src/images/Cognitive-Practitioner.png";
 import IBMNewCollarProfessionalSkills from "../src/images/IBM_New_Collar_Professional_Skills.png";
 import IBMConsultingCommunicatingValue from "../src/images/IBM-Consulting-Education-communicating-value.png";
 import EnterpriseDesignThinkingPractitioner from "../src/images/Badges_v8-07_Practitioner.png";
+import ResearchPaper from "../src/images/ResearchPaper.png";
 
 
 export const data = (t) => [
@@ -28,28 +29,28 @@ export const data = (t) => [
         // subTitle: "[Ongoing]",
         title: "Application Developer (Ongoing)",
         // description: "",
-        // date: "Apr 2021 - Present [ 1 yr 4 mos ]",
+        date: "Apr 2021 - Present",
         img: IBM,
       },
       {
         id: 2,
         title: "Previously, Developer Associate",
         // description: "[Ongoing]",
-        // date: "July 2020 - Nov 2020 [ 5 mos ]",
+        date: "July 2020 - Nov 2020",
         img: BISResearch,
       },
       {
         id: 3,
         title: "Previously, Trainee",
         // description: "[Formerly]",
-        // date: "Jun 2019 - Jul 2019 [2 mos]",
+        date: "Jun 2019 - Jul 2019",
         img: BSNL,
       },
       {
         id: 4,
         title: "Previously, Trainee",
         // description: "[Ongoing]",
-        // date: "Dec 2018 [1 mo]",
+        date: "Dec 2018",
         img: CESC,
       },
     ],
@@ -110,13 +111,13 @@ export const data = (t) => [
           "X-Spark- Generating Electricity from Human or Vehicle Pressure using PEC Material",
         img: Patent,
         description: "Application Number: 201931024351",
-        date: "Publication Date: Aug 9, 2019",
+        date: "Patent Publication Date: Aug 9, 2019",
         link: "https://ipindiaservices.gov.in/publicsearch",
       },
       {
         id: 1,
-        title: "Research Paper",
-        description: "X-Spark",
+        title: "X-Spark: Generating Electricity from Human or Vehicle Pressure using PEC Material",
+        description: "Research Paper",
         date: "Dec 1, 2018",
         img: IEEE,
         link: "https://ieeexplore.ieee.org/document/9033755",
