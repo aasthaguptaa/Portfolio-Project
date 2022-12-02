@@ -13,6 +13,7 @@ const Patent = () => {
         <h1>{t("patentAndResearchPaper")}</h1>
         <hr className="hrstyle" />
       </div>
+      <h2>{t("hoverOverTheCardsToKnowMore")}</h2>
       <div className="container">
         {data(t).map((item) => {
           if (item.id === "3") {
@@ -37,6 +38,7 @@ const Patent = () => {
           }
         })}
       </div>
+      
       <img src={pattern} alt="pattern1" />
     </div>
   );

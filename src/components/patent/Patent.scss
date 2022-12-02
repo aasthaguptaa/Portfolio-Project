@@ -29,6 +29,17 @@
     margin: 0 auto;
   }
 
+  h2 {
+    font-size: 15px;
+    color: #ffebcd;
+    overflow: hidden;
+
+    @include mobile {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+  }
+
   .container {
     display: flex;
     flex-direction: row;

@@ -13,6 +13,8 @@ export default function Work1() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const { t } = useTranslation();
 
+  const dataArray = [t("xSpark"), t("smartNoticeBoard"), t("toDoList")]
+
   const data = (t) => [
     {
       id: "1",
@@ -41,9 +43,11 @@ export default function Work1() {
   ];
 
   const handleClick = (way) => {
+    console.log('way: ', way);
+
     way === "left"
       ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
-      : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
+      : setCurrentSlide(currentSlide < dataArray.length - 1 ? currentSlide + 1 : 0);
   };
 
   return (
@@ -52,6 +56,11 @@ export default function Work1() {
         <h1>{t("work")}</h1>
         <hr className="hrstyle" />
       </div>
+
+      {/* <h5 className="dataArray">
+      {dataArray.map((item) => <h5>{item} --- </h5>)}
+      </h5> */}
+
       <div className="sliderContainer">
         <div
           className="slider"

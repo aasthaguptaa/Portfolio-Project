@@ -11,7 +11,7 @@ export default function Topbar({
 }) {
   const { t } = useTranslation();
   return (
-    <div className={"topbar " + ((menuOpen || openLangList) && "active")}>
+    <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
