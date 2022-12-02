@@ -28,25 +28,29 @@ export default function Topbar({
           <ul>
             <hr />
             <li onClick={() => setMenuOpen(false)}>
-              <a href="#intro">{t("home")}</a>
-            </li>
-            <hr />
-            <li onClick={() => setMenuOpen(false)}>
-              <a href="#portfolio">{t("portfolio")}</a>
-            </li>
-            <hr />
-            <li onClick={() => setMenuOpen(false)}>
-              <a href="#work">{t("works")}</a>
-            </li>
-            <hr />
-            {/* <li onClick={() => setMenuOpen(false)}>
-            <a href="#endorsements">{t("endorsements")}</a>
+            <a href="#experience">{t("experience")}</a>
           </li>
-          <hr /> */}
-            <li onClick={() => setMenuOpen(false)}>
-              <a href="#contact">{t("contact")}</a>
-            </li>
-            <hr />
+          <hr />
+          <li onClick={() => setMenuOpen(false)}>
+            <a href="#patent">{t("patent")}</a>
+          </li>
+          <hr />
+          <li onClick={() => setMenuOpen(false)}>
+            <a href="#badgesCertifications">{t("certifications")}</a>
+          </li>
+          <hr />
+          <li onClick={() => setMenuOpen(false)}>
+            <a href="#work">{t("works")}</a>
+          </li>
+          <hr />
+          <li onClick={() => setMenuOpen(false)}>
+            <a href="#honorsAwards">{t("awards")}</a>
+          </li>
+          <hr />
+          <li onClick={() => setMenuOpen(false)}>
+            <a href="#contact">{t("contact")}</a>
+          </li>
+          <hr />
           </ul>
           <div
             className="language"

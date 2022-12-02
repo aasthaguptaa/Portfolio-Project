@@ -32,5 +32,10 @@
   "publications": "المنشورات",
   "patent": "براءة اختراع",
   "honorsAwards": "التكريمات والجوائز",
-  "badgesCertifications": "الشهادات والشارات"
+  "badgesCertifications": "الشهادات والشارات",
+  "patentAndResearchPaper": "براءات الاختراع وورقة البحث",
+  "honors": "مرتبة الشرف",
+  "awards": "الجوائز",
+  "certifications": "الشهادات"
+  
 }

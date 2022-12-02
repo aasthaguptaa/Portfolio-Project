@@ -32,5 +32,11 @@
   "publications": "Veröffentlichungen",
   "patent": "Patent",
   "honorsAwards": "Ehrungen & Auszeichnungen",
-  "badgesCertifications": "Abzeichen & Zertifizierungen"
+  "badgesCertifications": "Abzeichen & Zertifizierungen",
+
+  
+  "patentAndResearchPaper": "Patent & Forschungsbericht",
+  "honors": "Ehrungen",
+  "awards": "Auszeichnungen",
+  "certifications": "Zertifizierungen"
 }

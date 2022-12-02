@@ -34,5 +34,8 @@
   "honorsAwards": "Honors & Awards",
   "badgesCertifications": "Badges & Certifications",
 
-  "patentAndResearchPaper": "Patent & Research Paper"
+  "patentAndResearchPaper": "Patent & Research Paper",
+  "honors": "Honors",
+  "awards": "Awards",
+  "certifications": "Certifications"
 }

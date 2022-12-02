@@ -1,44 +1,43 @@
 import React, { useState } from "react";
 import "./Work1.scss";
-import { ArrowForwardIos, ArrowBackIos, CancelScheduleSend } from "@material-ui/icons";
+import { ArrowForwardIos, ArrowBackIos } from "@material-ui/icons";
 import { useTranslation } from "react-i18next";
-import Bulb from "../../images/bulb.png"
-import TaskList from "../../images/TaskList.png"
-import SmartNoticeBoard from "../../images/SmartNoticeBoard.png"
+import Bulb from "../../images/bulb.png";
+import TaskList from "../../images/TaskList.png";
+import SmartNoticeBoard from "../../images/SmartNoticeBoard.png";
 import pattern from "../../images/workWave.svg";
 import ResearchPaper from "../../images/ResearchPaper.png";
-
-
+import pattern1 from "../../images/pattern.svg";
 
 export default function Work1() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const { t } = useTranslation();
 
-  const data = [
+  const data = (t) => [
     {
       id: "1",
       icon: Bulb,
-      title: "X-Spark",
-      desc: "A product, which generates electricity using human weight/pressure.",
+      title: t("xSpark"),
+      desc: t("xSparkDesc"),
       link: "https://ieeexplore.ieee.org/document/9033755",
       img: ResearchPaper,
     },
     {
       id: "2",
       // icon: "./assets/globe.png",
-      title: "Smart Notice Board",
-      desc: "A product integrated with X-Spark which displays a customized message whenever the user steps on the X-Spark mat, meanwhile reducing the continuous consumption of electricity.",
+      title: t("smartNoticeBoard"),
+      desc: t("smartNoticeBoardDesc"),
       link: "https://medium.com/@HR03/smart-notice-board-using-x-spark-mat-1c508a5e84f3",
       img: SmartNoticeBoard,
     },
     {
       id: "3",
       // icon: "./assets/writing.png",
-      title: "To-Do-List",
-      desc: "An app that allows users to add, edit, and delete tasks they want to work on, and also mark tasks as complete without deleting them.",
+      title: t("toDoList"),
+      desc: t("toDoListDesc"),
       link: "https://aasthaguptaa.github.io/To-Do-List",
       img: TaskList,
-    }
+    },
   ];
 
   const handleClick = (way) => {
@@ -58,17 +57,19 @@ export default function Work1() {
           className="slider"
           style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
         >
-          {data.map((d) => (
+          {data(t).map((d) => (
             <div className="container">
               <div className="item">
                 <div className="left">
                   <div className="leftContainer">
-                   <div className="imgContainer">
-                    <img src={d.icon} alt="" />
-                  </div> 
+                    {d.icon ? (
+                      <div className="imgContainer">
+                        <img src={d.icon} alt="" />
+                      </div>
+                    ) : null}
                     <h2>{d.title}</h2>
                     <p>{d.desc}</p>
-                    <a href={d.link}>know more..</a>
+                    <a href={d.link}>{t("knowMore")}</a>
                   </div>
                 </div>
                 <div className="right">
@@ -87,9 +88,9 @@ export default function Work1() {
           onClick={() => handleClick("left")}
         />
       </div>
-      <div>
-      <img src={pattern} alt="pattern1"/>
-      </div>
+      
+        <img src={pattern1} alt="pattern1" />
+
     </div>
   );
 }

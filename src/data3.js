@@ -16,8 +16,18 @@ import CognitivePractitioner from "../src/images/Cognitive-Practitioner.png";
 import IBMNewCollarProfessionalSkills from "../src/images/IBM_New_Collar_Professional_Skills.png";
 import IBMConsultingCommunicatingValue from "../src/images/IBM-Consulting-Education-communicating-value.png";
 import EnterpriseDesignThinkingPractitioner from "../src/images/Badges_v8-07_Practitioner.png";
+import WomenOfWorth from "../src/images/WomenOfWorth.jpg";
 import ResearchPaper from "../src/images/ResearchPaper.png";
-
+import iitf from "../src/images/iitf.jpg";
+import texas from "../src/images/texas.jpg";
+import HultDelhi from "../src/images/HultDelhi.jpg";
+import HultMalaysia from "../src/images/HultMalaysia.jpeg";
+import HultNSEC from "../src/images/HultNSEC.jpg";
+import PRISM from "../src/images/PRISM.jpeg";
+import TimesOfIndia from "../src/images/TimesOfIndia.jpeg";
+import TechnoEcho from "../src/images/TechnoEcho.jpeg";
+import Prism1 from "../src/images/Prism1.jpeg";
+import Aajkaal from "../src/images/Aajkaal.jpg";
 
 export const data = (t) => [
   {
@@ -116,7 +126,8 @@ export const data = (t) => [
       },
       {
         id: 1,
-        title: "X-Spark: Generating Electricity from Human or Vehicle Pressure using PEC Material",
+        title:
+          "X-Spark: Generating Electricity from Human or Vehicle Pressure using PEC Material",
         description: "Research Paper",
         date: "Dec 1, 2018",
         img: IEEE,
@@ -133,16 +144,40 @@ export const data = (t) => [
         title: "Women Of Worth",
         description: "Sister Nivedita University",
         date: "Mar 2021",
-        img: "assets/WomenOfWorth.jpg",
+        img: WomenOfWorth,
         link: "https://drive.google.com/file/d/18o_ji-uFpVPeenRI552XPzHX9ptMDjTG/view?usp=sharing",
       },
       {
         id: 2,
+        title: "Aajkaal newspaper",
+        description: " Innovation and Start-Up ",
+        date: "January 2, 2019",
+        img: Aajkaal,
+        link: "https://www.eaajkaal.in/",
+      },
+      {
+        id: 3,
+        title: "TechnoIndia Magazine",
+        description: "Start-up and innovation",
+        date: "March, 2019",
+        img: TechnoEcho,
+        link: "https://drive.google.com/file/d/1adpm3ZpwOpGRT0GPkMMT4piJWel0SRMu/view?usp=sharing",
+      },
+      {
+        id: 4,
+        title: "TechnoIndia Magazine",
+        description: "Prism",
+        date: "Sept, 2018",
+        img: Prism1,
+        link: "https://drive.google.com/file/d/1QEl_c8LAM-v_NzO5ndYHGlpJPlbgedTh/view?usp=sharing",
+      },
+      {
+        id: 5,
         title: "Winner",
         subTitle: "(IITF 2018), Kolkata",
         description: "BNCCI, NSDC, MSME Kolkata",
         date: "Dec 2018",
-        img: "assets/iitf.jpg",
+        img: iitf,
         link: "https://www.bncci.com/",
       },
       {
@@ -150,19 +185,19 @@ export const data = (t) => [
         title: "IICDC 2018",
         description: "Texas Instruments, mygov, IISC Bangalore",
         date: "Nov 2018",
-        img: "assets/texas.jpg",
+        img: texas,
         link: "https://blog.mygov.in/iicdc2018-qualifier-results-and-an-introduction-to-the-evaluation-panel/",
       },
-      // {
-      //   id: 4,
-      //   title: "HULT Prize",
-      //   subTitle: "(National Finals @Delhi, India)",
-      //   description:
-      //     "Hult International Business School, Bill Clinton, United Nations",
-      //   date: "Apr 2018",
-      //   img: "assets/HultDelhi.jpg",
-      //   link: "https://www.facebook.com/hultprize.iitd/",
-      // },
+      {
+        id: 4,
+        title: "Winner",
+        subTitle: "(HULT PRIZE 2018 @NSEC)",
+        description:
+          "Hult International Business School, Bill Clinton, United Nations",
+        date: "Nov 2017",
+        img: HultNSEC,
+        link: "https://www.facebook.com/pg/nsechult/posts/",
+      },
       {
         id: 5,
         title: "HULT Prize",
@@ -170,37 +205,37 @@ export const data = (t) => [
         description:
           "Hult International Business School, Bill Clinton, United Nations",
         date: "Mar 2018",
-        img: "assets/HultMalaysia.jpeg",
+        img: HultMalaysia,
         link: "https://www.hultprize.org/",
       },
-      // {
-      //   id: 6,
-      //   title: "Winner",
-      //   subTitle: "(HULT PRIZE 2018 @NSEC)",
-      //   description:
-      //     "Hult International Business School, Bill Clinton, United Nations",
-      //   date: "Nov 2017",
-      //   img: "assets/HultNSEC.jpg",
-      //   link: "https://www.facebook.com/pg/nsechult/posts/",
-      // },
-      // {
-      //   id: 7,
-      //   title: "Prism",
-      //   description:
-      //     "Techno India Group; Supported by MyGov, MSME & West Bengal Gov",
-      //   date: "Nov 2017",
-      //   img: "assets/PRISM.jpeg",
-      //   link: "https://www.startupindia.gov.in/content/sih/en/government-schemes/promoting-innovations-MSME.html",
-      // },
-      // {
-      //   id: 8,
-      //   title: "The Times Innnovation Challenge",
-      //   description:
-      //     "Techno India Group; Supported by MyGov, MSME & West Bengal Gov",
-      //   date: "Nov 2017",
-      //   img: "assets/TimesOfIndia.jpeg",
-      //   link: "https://www.facebook.com/timesinnovationchallengekolkata/",
-      // },
+      {
+        id: 6,
+        title: "HULT Prize",
+        subTitle: "(National Finals @Delhi, India)",
+        description:
+          "Hult International Business School, Bill Clinton, United Nations",
+        date: "Apr 2018",
+        img: HultDelhi,
+        link: "https://www.facebook.com/hultprize.iitd/",
+      },
+      {
+        id: 7,
+        title: "The Times Innnovation Challenge",
+        description:
+          "Techno India Group; Supported by MyGov, MSME & West Bengal Gov",
+        date: "Nov 2017",
+        img: TimesOfIndia,
+        link: "https://www.facebook.com/timesinnovationchallengekolkata/",
+      },
+      {
+        id: 8,
+        title: "Prism",
+        description:
+          "Techno India Group; Supported by MyGov, MSME & West Bengal Gov",
+        date: "Nov 2017",
+        img: PRISM,
+        link: "https://www.startupindia.gov.in/content/sih/en/government-schemes/promoting-innovations-MSME.html",
+      }, 
     ],
   },
   {
@@ -227,11 +262,11 @@ export const data = (t) => [
         title: "IBM Cloud Advocate",
         img: CloudAdvocate,
       },
-        {
-          id: 5,
-          title: "Mental Health Ally",
-          img: MentalHealthAlly,
-        },
+      {
+        id: 5,
+        title: "Mental Health Ally",
+        img: MentalHealthAlly,
+      },
       {
         id: 6,
         title: "Enterprise Design Thinking - Team Essentials for AI",
@@ -240,7 +275,7 @@ export const data = (t) => [
       {
         id: 7,
         title: "The IBM Way",
-        img:  TheIBMWay,
+        img: TheIBMWay,
       },
       {
         id: 8,

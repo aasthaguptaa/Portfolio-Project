@@ -32,5 +32,9 @@
   "publications": "Δημοσιεύσεις",
   "patent": "Ευρεσιτεχνία",
   "honorsAwards": "Διακρίσεις & Βραβεία",
-  "badgesCertifications": "Σήματα & Πιστοποιήσεις"
+  "badgesCertifications": "Σήματα & Πιστοποιήσεις",
+  "patentAndResearchPaper": "Ευρεσιτεχνία & Ερευνητικό Έγγραφο",
+  "honors": "Διακρίσεις",
+  "awards": "Βραβεία",
+  "certifications": "Πιστοποιήσεις"
 }

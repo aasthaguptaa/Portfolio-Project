@@ -41,15 +41,14 @@ function App() {
         <Patent />
         <Badges />
         <Work1 />
+        <Awards />
+        <Contact />
 
         {/* <Publications/> */}
-        {/* <Awards/> */}
-
         {/* <Portfolio2/> */}
-        {/* <Portfolio /> */}
         {/* <Work/> */}
         {/* <Endorsements /> */}
-        <Contact />
+        {/* <Portfolio /> */}
       </div>
     </div>
   );

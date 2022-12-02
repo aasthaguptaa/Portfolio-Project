@@ -34,20 +34,17 @@ export default function Menu({
             <a href="#patent">{t("patent")}</a>
           </li>
           <hr />
-          <li onClick={() => setMenuOpen(false)}>
-            <a href="#work">{t("works")}</a>
-          </li>
-          <hr />
+
           <li onClick={() => setMenuOpen(false)}>
             <a href="#badgesCertifications">{t("badgesCertifications")}</a>
           </li>
           <hr />
           <li onClick={() => setMenuOpen(false)}>
-            <a href="#honorsAwards">{t("honorsAwards")}</a>
+            <a href="#work">{t("works")}</a>
           </li>
           <hr />
           <li onClick={() => setMenuOpen(false)}>
-            <a href="#publications">{t("publications")}</a>
+            <a href="#honorsAwards">{t("honorsAwards")}</a>
           </li>
           <hr />
           {/* <li onClick={() => setMenuOpen(false)}>
@@ -58,6 +55,11 @@ export default function Menu({
             <a href="#contact">{t("contact")}</a>
           </li>
           <hr />
+          {/* <li onClick={() => setMenuOpen(false)}>
+            <a href="#publications">{t("publications")}</a>
+          </li>
+          <hr /> */}
+
           {/* <li onClick={() => setMenuOpen(false)}>
             <a href="#portfolio">{t("portfolio")}</a>
           </li>
