@@ -75,7 +75,7 @@
         margin: 10px 0;
 
         @include mobile {
-          font-size: 40px;
+          font-size: 30px;
           overflow: hidden;
         }
       }
@@ -83,6 +83,11 @@
       h2 {
         font-size: 25px;
         overflow: hidden;
+
+        @include mobile {
+          font-size: 20px;
+          overflow: hidden;
+        }
       }
 
       h3 {
