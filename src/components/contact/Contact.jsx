@@ -46,71 +46,73 @@ export default function Contact({ setMenuOpen, setOpenLangList }) {
         }}
       >
         <img src={pattern2} alt="pattern2" />
-        <div className="d-flex flex-column" id="contact">
-          <h1>{t("contactInformation")}</h1>
-          <hr className="hrstyle" />
-        </div>
-        <div className="contactContainer">
-          <div className="left">
-            <div className="itemContainer">
-              <a
-                href="mailto:aasthaguptaa18@gmail.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email className="icon tooltip" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/astha-gupta-275b56171/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <LinkedIn className="icon" />
-              </a>
-              <a
-                href="https://github.com/aasthaguptaa"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <GitHub className="icon" />
-              </a>
+        <div className="contactWrapper">
+          <div className="d-flex flex-column" id="contact">
+            <h1>{t("contactInformation")}</h1>
+            <hr className="hrstyle" />
+          </div>
+          <div className="contactContainer">
+            <div className="left">
+              <div className="itemContainer">
+                <a
+                  href="mailto:aasthaguptaa18@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Email className="icon tooltip" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/astha-gupta-275b56171/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <LinkedIn className="icon" />
+                </a>
+                <a
+                  href="https://github.com/aasthaguptaa"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <GitHub className="icon" />
+                </a>
+              </div>
+
+              <hr className="hrstyle" />
+              <form onSubmit={handleSubmit}>
+                <h5>{t("leaveMeMessage")}</h5>
+                <input
+                  type="text"
+                  placeholder={t("enterYourEmail")}
+                  value={emailSubject}
+                  onChange={(event) => setEmailSubject(event.target.value)}
+                />
+                <textarea
+                  placeholder={t("message")}
+                  value={emailBody}
+                  onChange={(event) => {
+                    setEmailBody(event.target.value);
+                    {
+                      event.target.value.trim().length
+                        ? setIsDisabled(false)
+                        : setIsDisabled(true);
+                    }
+                  }}
+                ></textarea>
+                <button
+                  type="submit"
+                  disabled={isDisabled}
+                  className={isDisabled ? "disable" : "button"}
+                >
+                  {t("send")}
+                </button>
+                {message && <span>{t("thanks")} :)</span>}
+              </form>
             </div>
 
-            <hr className="hrstyle" />
-            <form onSubmit={handleSubmit}>
-              <h5>{t("leaveMeMessage")}</h5>
-              <input
-                type="text"
-                placeholder={t("enterYourEmail")}
-                value={emailSubject}
-                onChange={(event) => setEmailSubject(event.target.value)}
-              />
-              <textarea
-                placeholder={t("message")}
-                value={emailBody}
-                onChange={(event) => {
-                  setEmailBody(event.target.value);
-                  {
-                    event.target.value.trim().length
-                      ? setIsDisabled(false)
-                      : setIsDisabled(true);
-                  }
-                }}
-              ></textarea>
-              <button
-                type="submit"
-                disabled={isDisabled}
-                className={isDisabled ? "disable" : "button"}
-              >
-                {t("send")}
-              </button>
-              {message && <span>{t("thanks")} :)</span>}
-            </form>
-          </div>
-
-          <div className="right">
-            <div className="shape">
-              <PermPhoneMsg className="phoneIcon" />
+            <div className="right">
+              <div className="shape">
+                <PermPhoneMsg className="phoneIcon" />
+              </div>
             </div>
           </div>
         </div>
