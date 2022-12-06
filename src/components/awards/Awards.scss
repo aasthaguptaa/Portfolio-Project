@@ -4,12 +4,18 @@
   background-color: #5a1616;
   border: transparent 1px solid;
   padding-top: 30px;
+
   .honorsAwards {
     background-color: #5a1616;
     display: flex;
     align-items: space-around;
-    justify-content: space;
+    justify-content: space-between;
     height: 100%;
+    gap: 30px;
+
+    @include mobile {
+      flex-direction: column-reverse;
+    }
 
     .heading {
       flex: 0.3;
@@ -23,12 +29,17 @@
       height: 90%;
       gap: 30px;
 
+      @include mobile {
+        gap: 5px;
+        flex: 0.2;
+      }
+
       h1 {
         font-size: 30px;
         color: white;
+
         @include mobile {
           font-size: 20px;
-          margin-top: 5px;
         }
       }
 
@@ -63,6 +74,8 @@
       @include mobile {
         height: 81vh;
         border-top: 2px solid #883434;
+        margin: 0px 20px;
+        flex: 0.8;
       }
 
       .item {

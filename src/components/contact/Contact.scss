@@ -17,9 +17,9 @@
   }
 
   .contactWrapper {
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    // background-color: red;
+
     h1 {
       font-size: 30px;
       color: #5a1616;
@@ -166,6 +166,7 @@
             font-size: 15px;
             height: 30px;
             color: #5a1616;
+            text-align: center;
 
             @include mobile {
               font-size: 14px;
