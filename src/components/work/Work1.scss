@@ -28,7 +28,7 @@
 
   .sliderContainer {
     display: flex;
-    height: 80vh;
+    height: 65vh;
     align-items: center;
     justify-content: center;
     // position: relative;
@@ -41,8 +41,7 @@
 
       @include mobile {
         // display: none;
-      font-size: 20px;
-
+        font-size: 20px;
       }
 
       &.left {
@@ -60,7 +59,7 @@
         }
       }
     }
-     
+
     .slider {
       height: 350px;
       display: flex;
@@ -154,9 +153,9 @@
                   display: none;
                 }
               }
-              a{
+              a {
                 font-size: 12px;
-                color:blue;
+                color: blue;
               }
 
               span {

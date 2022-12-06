@@ -65,9 +65,9 @@ export default function Work1({ setMenuOpen, setOpenLangList }) {
         <hr className="hrstyle" />
       </div>
 
-      {/* <h5 className="dataArray">
-      {dataArray.map((item) => <h5>{item} --- </h5>)}
-      </h5> */}
+      <h1>
+        ({currentSlide + 1}/{dataArray.length})
+      </h1>
 
       <div className="sliderContainer">
         <div
