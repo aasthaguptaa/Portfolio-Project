@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio-Project/static/css/main.9b8034b1.chunk.css",
-    "main.js": "/Portfolio-Project/static/js/main.ece16943.chunk.js",
-    "main.js.map": "/Portfolio-Project/static/js/main.ece16943.chunk.js.map",
+    "main.css": "/Portfolio-Project/static/css/main.a57724d7.chunk.css",
+    "main.js": "/Portfolio-Project/static/js/main.80022e62.chunk.js",
+    "main.js.map": "/Portfolio-Project/static/js/main.80022e62.chunk.js.map",
     "runtime-main.js": "/Portfolio-Project/static/js/runtime-main.99d7c135.js",
     "runtime-main.js.map": "/Portfolio-Project/static/js/runtime-main.99d7c135.js.map",
-    "static/js/2.c35695d0.chunk.js": "/Portfolio-Project/static/js/2.c35695d0.chunk.js",
-    "static/js/2.c35695d0.chunk.js.map": "/Portfolio-Project/static/js/2.c35695d0.chunk.js.map",
+    "static/js/2.9b2568e5.chunk.js": "/Portfolio-Project/static/js/2.9b2568e5.chunk.js",
+    "static/js/2.9b2568e5.chunk.js.map": "/Portfolio-Project/static/js/2.9b2568e5.chunk.js.map",
     "index.html": "/Portfolio-Project/index.html",
-    "static/css/main.9b8034b1.chunk.css.map": "/Portfolio-Project/static/css/main.9b8034b1.chunk.css.map",
-    "static/js/2.c35695d0.chunk.js.LICENSE.txt": "/Portfolio-Project/static/js/2.c35695d0.chunk.js.LICENSE.txt",
+    "static/css/main.a57724d7.chunk.css.map": "/Portfolio-Project/static/css/main.a57724d7.chunk.css.map",
+    "static/js/2.9b2568e5.chunk.js.LICENSE.txt": "/Portfolio-Project/static/js/2.9b2568e5.chunk.js.LICENSE.txt",
     "static/media/Aajkaal.a96001c1.jpg": "/Portfolio-Project/static/media/Aajkaal.a96001c1.jpg",
     "static/media/AsthaFinal.0ecdfb24.png": "/Portfolio-Project/static/media/AsthaFinal.0ecdfb24.png",
     "static/media/Azure-Fundamentals.dd49b3c5.png": "/Portfolio-Project/static/media/Azure-Fundamentals.dd49b3c5.png",
@@ -46,13 +46,12 @@
     "static/media/iitf.c36bbae0.jpg": "/Portfolio-Project/static/media/iitf.c36bbae0.jpg",
     "static/media/pattern.ec2995bf.svg": "/Portfolio-Project/static/media/pattern.ec2995bf.svg",
     "static/media/texas.a707dc9a.jpg": "/Portfolio-Project/static/media/texas.a707dc9a.jpg",
-    "static/media/wave.f9286da5.svg": "/Portfolio-Project/static/media/wave.f9286da5.svg",
-    "static/media/workWave.848f6567.svg": "/Portfolio-Project/static/media/workWave.848f6567.svg"
+    "static/media/wave.f9286da5.svg": "/Portfolio-Project/static/media/wave.f9286da5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.99d7c135.js",
-    "static/js/2.c35695d0.chunk.js",
-    "static/css/main.9b8034b1.chunk.css",
-    "static/js/main.ece16943.chunk.js"
+    "static/js/2.9b2568e5.chunk.js",
+    "static/css/main.a57724d7.chunk.css",
+    "static/js/main.80022e62.chunk.js"
   ]
 }
