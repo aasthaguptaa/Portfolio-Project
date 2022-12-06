@@ -1,10 +1,12 @@
 @import "../../global.scss";
 
 .work {
+  background-color: #e0ffff;
+  height: auto;
   display: flex;
   flex-direction: column;
-  background-color: #e0ffff;
-  color: white;
+  align-items: center;
+  justify-content: center;
 
   h1 {
     font-size: 30px;

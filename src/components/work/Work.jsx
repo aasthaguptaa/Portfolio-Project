@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import "./Work.scss";
+import "./Work1.scss";
 
 const Work = () => {
   const { t } = useTranslation();
