@@ -3,16 +3,22 @@ import { useTranslation } from "react-i18next";
 import { data } from "../../data3";
 import "./Awards.scss";
 
-const Awards = () => {
+const Awards = ({ setMenuOpen, setOpenLangList }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="honorsAwards" id="honorsAwards">
+    <div
+      className="honorsAwards"
+      id="honorsAwards"
+      onClick={() => {
+        setMenuOpen(false);
+        setOpenLangList(false);
+      }}
+    >
       <div className="heading">
         <h1>{t("honors")}</h1>
         <div className="and">&</div>
         <h1>{t("awards")}</h1>
-
       </div>
       <div className="container">
         {data(t).map((item) => {

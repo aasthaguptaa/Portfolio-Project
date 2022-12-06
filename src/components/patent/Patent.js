@@ -4,11 +4,18 @@ import { data } from "../../data3";
 import "./Patent.scss";
 import pattern from "../../images/wave.svg";
 
-const Patent = () => {
+const Patent = ({ setMenuOpen, setOpenLangList }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="patent" id="patent">
+    <div
+      className="patent"
+      id="patent"
+      onClick={() => {
+        setMenuOpen(false);
+        setOpenLangList(false);
+      }}
+    >
       <div className="d-flex flex-column">
         <h1>{t("patentAndResearchPaper")}</h1>
         <hr className="hrstyle" />
@@ -38,7 +45,7 @@ const Patent = () => {
           }
         })}
       </div>
-      
+
       <img src={pattern} alt="pattern1" />
     </div>
   );

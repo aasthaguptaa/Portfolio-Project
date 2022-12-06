@@ -5,7 +5,7 @@ import AsthaFinal from "../../images/AsthaFinal.png";
 import "./Intro.scss";
 import { useTranslation } from "react-i18next";
 
-export default function Intro() {
+export default function Intro({ setMenuOpen, setOpenLangList }) {
   const textRef = useRef();
   const { t } = useTranslation();
   useEffect(() => {
@@ -19,7 +19,14 @@ export default function Intro() {
   }, []);
 
   return (
-    <div className="intro" id="intro">
+    <div
+      className="intro"
+      id="intro"
+      onClick={() => {
+        setMenuOpen(false);
+        setOpenLangList(false);
+      }}
+    >
       <div className="left">
         <div className="imgContainer">
           <img src={AsthaFinal} />

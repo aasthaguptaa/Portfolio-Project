@@ -5,7 +5,7 @@ import * as emailjs from "emailjs-com";
 import { useTranslation } from "react-i18next";
 import pattern2 from "../../images/pattern.svg";
 
-export default function Contact() {
+export default function Contact({ setMenuOpen, setOpenLangList }) {
   const [message, setMessage] = useState(false);
   const [isDisabled, setIsDisabled] = useState(true);
   const [emailBody, setEmailBody] = useState("");
@@ -38,13 +38,19 @@ export default function Contact() {
 
   return (
     <>
-      <div className="contact">
+      <div
+        className="contact"
+        onClick={() => {
+          setMenuOpen(false);
+          setOpenLangList(false);
+        }}
+      >
         <img src={pattern2} alt="pattern2" />
         <div className="d-flex flex-column" id="contact">
           <h1>{t("contactInformation")}</h1>
           <hr className="hrstyle" />
         </div>
-        <div className="contactContainer" >
+        <div className="contactContainer">
           <div className="left">
             <div className="itemContainer">
               <a

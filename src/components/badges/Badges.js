@@ -4,23 +4,29 @@ import { data } from "../../data3";
 import "./Badges.scss";
 import pattern from "../../images/blueWave.svg";
 
-const Badges = () => {
+const Badges = ({ setMenuOpen, setOpenLangList }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="badgesCertifications" id="badgesCertifications">
-
+    <div
+      className="badgesCertifications"
+      id="badgesCertifications"
+      onClick={() => {
+        setMenuOpen(false);
+        setOpenLangList(false);
+      }}
+    >
       <div className="d-flex flex-column">
         <h1>{t("badgesCertifications")}</h1>
         <hr className="hrstyle" />
       </div>
-   
-        <div className="container">
-          {data(t).map((item) => {
-            if (item.id === "5") {
-              return item.subData.map((d) => (
-                <div className="item">
-                  {/* <div className="itemDesc">
+
+      <div className="container">
+        {data(t).map((item) => {
+          if (item.id === "5") {
+            return item.subData.map((d) => (
+              <div className="item">
+                {/* <div className="itemDesc">
                     <div className="title">{d.title}</div>
                     <div className="subTitle">{d.subTitle}</div>
                     <div className="description">{d.description}</div>
@@ -32,16 +38,15 @@ const Badges = () => {
                       </a>
                     ) : null}
                   </div> */}
-                  <img src={d.img} alt="" />
-                </div>
-              ));
-            } else {
-              return null;
-            }
-          })}
-        </div>
-        <img src={pattern} alt="pattern1"/>
-
+                <img src={d.img} alt="" />
+              </div>
+            ));
+          } else {
+            return null;
+          }
+        })}
+      </div>
+      <img src={pattern} alt="pattern1" />
     </div>
   );
 };

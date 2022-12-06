@@ -4,11 +4,18 @@ import { data } from "../../data3";
 import "./Experience.scss";
 import pattern from "../../images/pattern.svg";
 
-const Experience = () => {
+const Experience = ({ setMenuOpen, setOpenLangList }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="experience" id="experience">
+    <div
+      className="experience"
+      id="experience"
+      onClick={() => {
+        setMenuOpen(false);
+        setOpenLangList(false);
+      }}
+    >
       <div className="d-flex flex-column">
         <h1>{t("experience")}</h1>
         <hr className="hrstyle" />

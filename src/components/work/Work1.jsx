@@ -5,15 +5,14 @@ import { useTranslation } from "react-i18next";
 import Bulb from "../../images/bulb.png";
 import TaskList from "../../images/TaskList.png";
 import SmartNoticeBoard from "../../images/SmartNoticeBoard.png";
-import pattern from "../../images/workWave.svg";
 import ResearchPaper from "../../images/ResearchPaper.png";
 import pattern1 from "../../images/pattern.svg";
 
-export default function Work1() {
+export default function Work1({ setMenuOpen, setOpenLangList }) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const { t } = useTranslation();
 
-  const dataArray = [t("xSpark"), t("smartNoticeBoard"), t("toDoList")]
+  const dataArray = [t("xSpark"), t("smartNoticeBoard"), t("toDoList")];
 
   const data = (t) => [
     {
@@ -43,15 +42,24 @@ export default function Work1() {
   ];
 
   const handleClick = (way) => {
-    console.log('way: ', way);
+    console.log("way: ", way);
 
     way === "left"
       ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
-      : setCurrentSlide(currentSlide < dataArray.length - 1 ? currentSlide + 1 : 0);
+      : setCurrentSlide(
+          currentSlide < dataArray.length - 1 ? currentSlide + 1 : 0
+        );
   };
 
   return (
-    <div className="work" id="work">
+    <div
+      className="work"
+      id="work"
+      onClick={() => {
+        setMenuOpen(false);
+        setOpenLangList(false);
+      }}
+    >
       <div className="d-flex flex-column">
         <h1>{t("work")}</h1>
         <hr className="hrstyle" />
@@ -97,9 +105,8 @@ export default function Work1() {
           onClick={() => handleClick("left")}
         />
       </div>
-      
-        <img src={pattern1} alt="pattern1" />
 
+      <img src={pattern1} alt="pattern1" />
     </div>
   );
 }

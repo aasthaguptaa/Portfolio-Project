@@ -2,20 +2,19 @@ import "./app.scss";
 import "./custom.scss";
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
-import Portfolio from "./components/portfolio/Portfolio";
-import Work from "./components/work/Work";
 import Patent from "./components/patent/Patent";
-
-import Endorsements from "./components/endorsements/Endorsements";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import { useState } from "react";
-import Portfolio2 from "./components/portfolio/Portfolio2";
 import Work1 from "./components/work/Work1";
 import Experience from "./components/experience/Experience";
-import Publications from "./components/publications/Publications";
 import Awards from "./components/awards/Awards";
 import Badges from "./components/badges/Badges";
+import Portfolio from "./components/portfolio/Portfolio";
+import Work from "./components/work/Work";
+import Publications from "./components/publications/Publications";
+import Portfolio2 from "./components/portfolio/Portfolio2";
+import Endorsements from "./components/endorsements/Endorsements";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -36,13 +35,16 @@ function App() {
         setOpenLangList={setOpenLangList}
       />
       <div className="sections">
-        <Intro />
-        <Experience />
-        <Patent />
-        <Badges />
-        <Work1 />
-        <Awards />
-        <Contact />
+        <Intro setMenuOpen={setMenuOpen} setOpenLangList={setOpenLangList} />
+        <Experience
+          setMenuOpen={setMenuOpen}
+          setOpenLangList={setOpenLangList}
+        />
+        <Patent setMenuOpen={setMenuOpen} setOpenLangList={setOpenLangList} />
+        <Badges setMenuOpen={setMenuOpen} setOpenLangList={setOpenLangList} />
+        <Work1 setMenuOpen={setMenuOpen} setOpenLangList={setOpenLangList} />
+        <Awards setMenuOpen={setMenuOpen} setOpenLangList={setOpenLangList} />
+        <Contact setMenuOpen={setMenuOpen} setOpenLangList={setOpenLangList} />
 
         {/* <Publications/> */}
         {/* <Portfolio2/> */}
