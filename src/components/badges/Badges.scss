@@ -41,7 +41,7 @@
     .item {
       width: 200px;
       height: 150px;
-      border-radius: 50px;
+      border-radius: 10px;
       background-color: #bc7b82;
       margin: 20px;
       display: flex;
@@ -53,6 +53,19 @@
       cursor: pointer;
       overflow: hidden;
       transition: all 1s ease;
+    //   width: 210px;
+    // height: 199px;
+    // border-radius: 10px;
+    // background-color: #ffffff5c;
+    // margin: 20px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // transition: all 0.5s ease;
+    // /* box-shadow: rgb(0 0 0 / 6%) 0px 2px 4px 0px inset; */
+    // cursor: pointer;
+    // overflow: hidden;
+    // transition: all 1s ease;
 
       &:hover {
         transform: scale(1.1);
@@ -71,6 +84,13 @@
         margin-right: 10px;
         object-fit: contain;
         flex: 0.6;
+
+        // width: 90%;
+        // height: 90%;
+        // background-size: cover;
+        // border-radius: 20px;
+        // object-fit: contain;
+    
 
         @include mobile {
           overflow: hidden;

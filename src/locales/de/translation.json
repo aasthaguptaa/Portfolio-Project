@@ -10,14 +10,12 @@
   "works": "Funktioniert",
   "endorsements": "Vermerke",
   "contact": "Kontakt",
-
   "contactInformation": "Kontaktinformationen",
   "leaveMeMessage": "Hinterlassen Sie mir eine Nachricht!",
   "enterYourEmail": "Geben sie ihre E-Mail Adresse ein",
   "message": "Nachricht",
   "send": "Senden",
   "thanks": "Danke, ich melde mich schnellstmöglich bei Ihnen",
-
   "clickToKnowMore": "Klicken Sie hier, um mehr zu erfahren!",
   "work": "Das sind meine Werke!",
   "xSpark": "X-Spark",
@@ -27,17 +25,21 @@
   "toDoList": "Aufgabenliste",
   "toDoListDesc": "Eine App, mit der Benutzer Aufgaben hinzufügen, bearbeiten und löschen können, an denen sie arbeiten möchten, und Aufgaben als abgeschlossen markieren, ohne sie zu löschen.",
   "knowMore": "mehr wissen..",
-
   "experience": "Erfahrung",
   "publications": "Veröffentlichungen",
   "patent": "Patent",
   "honorsAwards": "Ehrungen & Auszeichnungen",
   "badgesCertifications": "Abzeichen & Zertifizierungen",
-
-  
   "patentAndResearchPaper": "Patent & Forschungsbericht",
   "honors": "Ehrungen",
   "awards": "Auszeichnungen",
   "certifications": "Zertifizierungen",
-  "hoverOverTheCardsToKnowMore": "Bewegen Sie den Mauszeiger über die Karten, um mehr zu erfahren!"
+  "hoverOverTheCardsToKnowMore": "Bewegen Sie den Mauszeiger über die Karten, um mehr zu erfahren!",
+  "applicationDeveloper": "Anwendungsentwickler (laufend)",
+  "previouslyDeveloperAssociate": "Früher Entwicklerin Assoziieren",
+  "previouslyTrainee": "Früher Auszubildender",
+  "Dec2018": "Dezember 2018",
+  "Jun2019ToJul2019": "Juni 2019 - Juli 2019",
+  "July2020ToNov2020": "Juli 2020 - Nov 2020",
+  "Apr2021ToPresent": "April 2021 - Gegenwärtig"
 }
