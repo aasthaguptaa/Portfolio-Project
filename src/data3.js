@@ -120,16 +120,16 @@ export const data = (t) => [
         title:
           "X-Spark- Generating Electricity from Human or Vehicle Pressure using PEC Material",
         img: Patent,
-        description: "Application Number: 201931024351",
-        date: "Patent Publication Date: Aug 9, 2019",
+        description: t("applicationNumber201931024351"),
+        date: t("patentPublicationDate"),
         link: "https://ipindiaservices.gov.in/publicsearch",
       },
       {
         id: 1,
         title:
           "X-Spark: Generating Electricity from Human or Vehicle Pressure using PEC Material",
-        description: "Research Paper",
-        date: "Dec 1, 2018",
+        description: t("researchPaper"),
+        date: t("Dec12018"),
         img: IEEE,
         link: "https://ieeexplore.ieee.org/document/9033755",
       },
