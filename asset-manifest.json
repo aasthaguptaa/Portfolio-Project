@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio-Project/static/css/main.cfd80c22.chunk.css",
-    "main.js": "/Portfolio-Project/static/js/main.ac5b6e2d.chunk.js",
-    "main.js.map": "/Portfolio-Project/static/js/main.ac5b6e2d.chunk.js.map",
+    "main.css": "/Portfolio-Project/static/css/main.d2b94282.chunk.css",
+    "main.js": "/Portfolio-Project/static/js/main.b0118ac5.chunk.js",
+    "main.js.map": "/Portfolio-Project/static/js/main.b0118ac5.chunk.js.map",
     "runtime-main.js": "/Portfolio-Project/static/js/runtime-main.99d7c135.js",
     "runtime-main.js.map": "/Portfolio-Project/static/js/runtime-main.99d7c135.js.map",
-    "static/js/2.08fb74cc.chunk.js": "/Portfolio-Project/static/js/2.08fb74cc.chunk.js",
-    "static/js/2.08fb74cc.chunk.js.map": "/Portfolio-Project/static/js/2.08fb74cc.chunk.js.map",
+    "static/js/2.8aae018f.chunk.js": "/Portfolio-Project/static/js/2.8aae018f.chunk.js",
+    "static/js/2.8aae018f.chunk.js.map": "/Portfolio-Project/static/js/2.8aae018f.chunk.js.map",
     "index.html": "/Portfolio-Project/index.html",
-    "static/css/main.cfd80c22.chunk.css.map": "/Portfolio-Project/static/css/main.cfd80c22.chunk.css.map",
-    "static/js/2.08fb74cc.chunk.js.LICENSE.txt": "/Portfolio-Project/static/js/2.08fb74cc.chunk.js.LICENSE.txt",
+    "static/css/main.d2b94282.chunk.css.map": "/Portfolio-Project/static/css/main.d2b94282.chunk.css.map",
+    "static/js/2.8aae018f.chunk.js.LICENSE.txt": "/Portfolio-Project/static/js/2.8aae018f.chunk.js.LICENSE.txt",
     "static/media/Aajkaal.a96001c1.jpg": "/Portfolio-Project/static/media/Aajkaal.a96001c1.jpg",
     "static/media/AsthaFinal.0ecdfb24.png": "/Portfolio-Project/static/media/AsthaFinal.0ecdfb24.png",
     "static/media/Azure-Fundamentals.dd49b3c5.png": "/Portfolio-Project/static/media/Azure-Fundamentals.dd49b3c5.png",
@@ -17,7 +17,7 @@
     "static/media/Carbon-IBM.46f84642.png": "/Portfolio-Project/static/media/Carbon-IBM.46f84642.png",
     "static/media/Cognitive-Practitioner.0dafb538.png": "/Portfolio-Project/static/media/Cognitive-Practitioner.0dafb538.png",
     "static/media/Germany.c942821f.svg": "/Portfolio-Project/static/media/Germany.c942821f.svg",
-    "static/media/Greece.bcdfeaa9.svg": "/Portfolio-Project/static/media/Greece.bcdfeaa9.svg",
+    "static/media/Greece.cadaa850.svg": "/Portfolio-Project/static/media/Greece.cadaa850.svg",
     "static/media/HultDelhi.5a2cfda1.jpg": "/Portfolio-Project/static/media/HultDelhi.5a2cfda1.jpg",
     "static/media/HultMalaysia.c377c1cb.jpeg": "/Portfolio-Project/static/media/HultMalaysia.c377c1cb.jpeg",
     "static/media/HultNSEC.f4e9ed97.jpg": "/Portfolio-Project/static/media/HultNSEC.f4e9ed97.jpg",
@@ -37,21 +37,21 @@
     "static/media/The-IBM-Way.5c12400f.png": "/Portfolio-Project/static/media/The-IBM-Way.5c12400f.png",
     "static/media/TimesOfIndia.9d382ad5.jpeg": "/Portfolio-Project/static/media/TimesOfIndia.9d382ad5.jpeg",
     "static/media/UAE.7008b028.svg": "/Portfolio-Project/static/media/UAE.7008b028.svg",
-    "static/media/UK.5b332bcf.svg": "/Portfolio-Project/static/media/UK.5b332bcf.svg",
+    "static/media/UK.bfb59432.svg": "/Portfolio-Project/static/media/UK.bfb59432.svg",
     "static/media/WomenOfWorth.39ac54ca.jpg": "/Portfolio-Project/static/media/WomenOfWorth.39ac54ca.jpg",
-    "static/media/blueWave.93b351ec.svg": "/Portfolio-Project/static/media/blueWave.93b351ec.svg",
+    "static/media/blueWave.6aacee82.svg": "/Portfolio-Project/static/media/blueWave.6aacee82.svg",
     "static/media/bulb.83d661fb.png": "/Portfolio-Project/static/media/bulb.83d661fb.png",
     "static/media/getFetch.cjs": "/Portfolio-Project/static/media/getFetch.5fde86e3.cjs",
     "static/media/globe.643b5981.svg": "/Portfolio-Project/static/media/globe.643b5981.svg",
     "static/media/iitf.c36bbae0.jpg": "/Portfolio-Project/static/media/iitf.c36bbae0.jpg",
     "static/media/pattern.ec2995bf.svg": "/Portfolio-Project/static/media/pattern.ec2995bf.svg",
     "static/media/texas.a707dc9a.jpg": "/Portfolio-Project/static/media/texas.a707dc9a.jpg",
-    "static/media/wave.f9286da5.svg": "/Portfolio-Project/static/media/wave.f9286da5.svg"
+    "static/media/wave.a45e92d4.svg": "/Portfolio-Project/static/media/wave.a45e92d4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.99d7c135.js",
-    "static/js/2.08fb74cc.chunk.js",
-    "static/css/main.cfd80c22.chunk.css",
-    "static/js/main.ac5b6e2d.chunk.js"
+    "static/js/2.8aae018f.chunk.js",
+    "static/css/main.d2b94282.chunk.css",
+    "static/js/main.b0118ac5.chunk.js"
   ]
 }
