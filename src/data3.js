@@ -302,6 +302,11 @@ export const data = (t) => [
         title: "IBM New Collar Professional Skills",
         img: IBMNewCollarProfessionalSkills,
       },
+      {
+        id: 13,
+        title: "IBM Consulting Way",
+        img: "assets/IBM-Consulting-Way.png",
+      },
     ],
   },
 ];
