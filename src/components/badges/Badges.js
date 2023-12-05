@@ -25,7 +25,7 @@ const Badges = ({ setMenuOpen, setOpenLangList }) => {
         {data(t).map((item) => {
           if (item.id === "5") {
             return item.subData.map((d) => (
-              <div className="item">
+              <a className="item"  target="_blank" href={d.link}>
                 {/* <div className="itemDesc">
                     <div className="title">{d.title}</div>
                     <div className="subTitle">{d.subTitle}</div>
@@ -39,7 +39,7 @@ const Badges = ({ setMenuOpen, setOpenLangList }) => {
                     ) : null}
                   </div> */}
                 <img src={d.img} alt="" />
-              </div>
+              </a>
             ));
           } else {
             return null;

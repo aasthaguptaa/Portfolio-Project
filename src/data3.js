@@ -246,71 +246,85 @@ export const data = (t) => [
         id: 1,
         title: "JavaScript Front-End Development",
         img: JavaScriptFrontEndDevelopment,
+        link: "https://www.credly.com/badges/d06ac02c-b32f-47fb-b17b-e73650541a63/public_url"
       },
       {
         id: 2,
         title: "IBM Carbon Design System Developer Essentials - React",
         img: CarbonIBM,
+        link: "https://www.credly.com/badges/f296d880-fafd-4ab3-b29a-93154433a928/public_url"
       },
       {
         id: 3,
         title: "Microsoft Certified: Azure Fundamentals",
         img: AzureFundamentals,
+        link: "https://www.credly.com/badges/ee4e8028-2c8b-472c-ac44-807ea9103b8d/public_url"
       },
       {
         id: 4,
         title: "IBM Cloud Advocate",
         img: CloudAdvocate,
+        link: "https://www.credly.com/badges/39153540-7418-4ab8-b008-3bee44204704/public_url"
       },
       {
         id: 5,
         title: "Mental Health Ally",
         img: MentalHealthAlly,
+        link: "https://www.credly.com/badges/906937b3-5837-44e1-be3d-cf7c28966af7/public_url"
       },
       {
         id: 6,
         title: "Enterprise Design Thinking - Team Essentials for AI",
         img: TeamEssentialsForAI,
+        link: "https://www.credly.com/badges/40af0ad3-7571-4b2f-9380-2e76901b12cc/public_url"
       },
       {
         id: 7,
         title: "The IBM Way",
         img: TheIBMWay,
+        link: "https://www.credly.com/badges/0e114327-a02e-44b9-9577-fdc661458b17/public_url"
       },
       {
         id: 8,
         title: "IBM Agile Explorer",
         img: IBMAgileExplorer,
+        link: "https://www.credly.com/badges/5c74e81c-179e-4442-8148-f4749dfcceba/public_url"
       },
       {
         id: 9,
         title: "Cognitive Practitioner",
         img: CognitivePractitioner,
+        link: "https://www.credly.com/badges/6fcdc5e2-79e2-4ab0-bc28-3b33c57f1b0d/public_url"
       },
       {
         id: 10,
         title: "Enterprise Design Thinking Practitioner",
         img: EnterpriseDesignThinkingPractitioner,
+        link: "https://www.credly.com/badges/f745f751-6d17-4fa1-9059-ff8800c00674/public_url"
       },
       {
         id: 11,
         title: "IBM Consulting – Communicating Value",
         img: IBMConsultingCommunicatingValue,
+        link: "https://www.credly.com/badges/523d1eed-3b56-4483-ae1a-760b1350b8be/public_url"
       },
       {
         id: 12,
         title: "IBM New Collar Professional Skills",
         img: IBMNewCollarProfessionalSkills,
+        link: "https://www.credly.com/badges/779489a7-7988-4f97-937f-e6f837c4fc9b/public_url"
       },
       {
         id: 13,
         title: "IBM Consulting Way",
         img: "assets/IBM-Consulting-Way.png",
+        link: "https://www.credly.com/badges/fd60fc04-7ab4-448a-a3ed-a066871a577f/public_url"
       },
       {
         id: 14,
         title: "IBM Garage Essentials",
         img: "assets/IBM-Garage-Essentials.png",
+        link: "https://www.credly.com/badges/85de3bcb-73f5-41c2-9099-21ac16991c13/public_url"
       },
     ],
   },
