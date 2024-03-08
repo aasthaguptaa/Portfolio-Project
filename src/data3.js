@@ -28,6 +28,12 @@ import TimesOfIndia from "../src/images/TimesOfIndia.jpeg";
 import TechnoEcho from "../src/images/TechnoEcho.jpeg";
 import Prism1 from "../src/images/Prism1.jpeg";
 import Aajkaal from "../src/images/Aajkaal.jpg";
+import IBMConsultingWay from "../src/images/IBM-Consulting-Way.png";
+import IBMGarageEssentials from "../src/images/IBM-Garage-Essentials.png";
+import SecurityPrivacyFoundations from "../src/images/Security-Privacy-Design-Foundations.png";
+import WatsonXDataTechnical from "../src/images/watsonx-data-Technical-Sales-Advanced.png";
+import BankingIndustry from "../src/images//Banking-Industry-Jumpstart.png";
+import FinancialIndustry from "../src/images//Banking-Industry-Jumpstart.png";
 
 export const data = (t) => [
   {
@@ -317,14 +323,38 @@ export const data = (t) => [
       {
         id: 13,
         title: "IBM Consulting Way",
-        img: "assets/IBM-Consulting-Way.png",
+        img: IBMConsultingWay,
         link: "https://www.credly.com/badges/fd60fc04-7ab4-448a-a3ed-a066871a577f/public_url"
       },
       {
         id: 14,
         title: "IBM Garage Essentials",
-        img: "assets/IBM-Garage-Essentials.png",
+        img: IBMGarageEssentials,
         link: "https://www.credly.com/badges/85de3bcb-73f5-41c2-9099-21ac16991c13/public_url"
+      },
+      {
+        id: 15,
+        title: "Security and Privacy by Design Foundations",
+        img: SecurityPrivacyFoundations,
+        link: "https://www.credly.com/badges/154b03a8-3b70-478b-b7c0-6c3882901fbc/public_url"
+      },
+      {
+        id: 16,
+        title: "watsonx.data Technical Sales Advanced",
+        img: WatsonXDataTechnical,
+        link: "https://www.credly.com/badges/a38e46c0-df4a-4108-a3cc-c40373b1990c/public_url"
+      },
+      {
+        id: 17,
+        title: "Banking Industry Jumpstart",
+        img: BankingIndustry,
+        link: "https://www.credly.com/badges/2b5c97e8-bd5c-4956-b69b-819103d362be/public_url"
+      },
+      {
+        id: 18,
+        title: "Financial Markets Industry Jumpstart",
+        img: FinancialIndustry,
+        link: "https://www.credly.com/badges/2b5c97e8-bd5c-4956-b69b-819103d362be/public_url"
       },
     ],
   },
