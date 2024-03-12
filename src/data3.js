@@ -32,8 +32,8 @@ import IBMConsultingWay from "../src/images/IBM-Consulting-Way.png";
 import IBMGarageEssentials from "../src/images/IBM-Garage-Essentials.png";
 import SecurityPrivacyFoundations from "../src/images/Security-Privacy-Design-Foundations.png";
 import WatsonXDataTechnical from "../src/images/watsonx-data-Technical-Sales-Advanced.png";
-import BankingIndustry from "../src/images//Banking-Industry-Jumpstart.png";
-import FinancialIndustry from "../src/images//Banking-Industry-Jumpstart.png";
+import BankingIndustry from "../src/images/Banking-Industry-Jumpstart.png";
+import FinancialIndustry from "../src/images/Financial-Markets-Industry-Jumpstart.png";
 
 export const data = (t) => [
   {
@@ -354,7 +354,7 @@ export const data = (t) => [
         id: 18,
         title: "Financial Markets Industry Jumpstart",
         img: FinancialIndustry,
-        link: "https://www.credly.com/badges/2b5c97e8-bd5c-4956-b69b-819103d362be/public_url"
+        link: "https://www.credly.com/badges/47ca8a7f-fcb0-4283-a840-07a4a146c9d7/public_url"
       },
     ],
   },
