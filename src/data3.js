@@ -34,6 +34,7 @@ import SecurityPrivacyFoundations from "../src/images/Security-Privacy-Design-Fo
 import WatsonXDataTechnical from "../src/images/watsonx-data-Technical-Sales-Advanced.png";
 import BankingIndustry from "../src/images/Banking-Industry-Jumpstart.png";
 import FinancialIndustry from "../src/images/Financial-Markets-Industry-Jumpstart.png";
+import IBMAutomationPractioner from "../src/images/ibm-automation-practitioner.png";
 
 export const data = (t) => [
   {
@@ -355,6 +356,12 @@ export const data = (t) => [
         title: "Financial Markets Industry Jumpstart",
         img: FinancialIndustry,
         link: "https://www.credly.com/badges/47ca8a7f-fcb0-4283-a840-07a4a146c9d7/public_url"
+      },
+      {
+        id: 19,
+        title: "IBM Automation Practitioner",
+        img: IBMAutomationPractioner,
+        link: "https://www.credly.com/badges/e7b61395-5b7f-4ea3-aed1-aa0d3176f608/public_url"
       },
     ],
   },
