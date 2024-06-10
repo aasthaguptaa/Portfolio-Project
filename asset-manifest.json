@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio-Project/static/css/main.e6699215.chunk.css",
-    "main.js": "/Portfolio-Project/static/js/main.6f780a1b.chunk.js",
-    "main.js.map": "/Portfolio-Project/static/js/main.6f780a1b.chunk.js.map",
+    "main.js": "/Portfolio-Project/static/js/main.b72ff2ab.chunk.js",
+    "main.js.map": "/Portfolio-Project/static/js/main.b72ff2ab.chunk.js.map",
     "runtime-main.js": "/Portfolio-Project/static/js/runtime-main.99d7c135.js",
     "runtime-main.js.map": "/Portfolio-Project/static/js/runtime-main.99d7c135.js.map",
-    "static/js/2.8aae018f.chunk.js": "/Portfolio-Project/static/js/2.8aae018f.chunk.js",
-    "static/js/2.8aae018f.chunk.js.map": "/Portfolio-Project/static/js/2.8aae018f.chunk.js.map",
+    "static/js/2.2d859a3c.chunk.js": "/Portfolio-Project/static/js/2.2d859a3c.chunk.js",
+    "static/js/2.2d859a3c.chunk.js.map": "/Portfolio-Project/static/js/2.2d859a3c.chunk.js.map",
     "index.html": "/Portfolio-Project/index.html",
     "static/css/main.e6699215.chunk.css.map": "/Portfolio-Project/static/css/main.e6699215.chunk.css.map",
-    "static/js/2.8aae018f.chunk.js.LICENSE.txt": "/Portfolio-Project/static/js/2.8aae018f.chunk.js.LICENSE.txt",
+    "static/js/2.2d859a3c.chunk.js.LICENSE.txt": "/Portfolio-Project/static/js/2.2d859a3c.chunk.js.LICENSE.txt",
     "static/media/Aajkaal.a96001c1.jpg": "/Portfolio-Project/static/media/Aajkaal.a96001c1.jpg",
     "static/media/AsthaFinal.0ecdfb24.png": "/Portfolio-Project/static/media/AsthaFinal.0ecdfb24.png",
     "static/media/Azure-Fundamentals.dd49b3c5.png": "/Portfolio-Project/static/media/Azure-Fundamentals.dd49b3c5.png",
@@ -46,8 +46,9 @@
     "static/media/WomenOfWorth.39ac54ca.jpg": "/Portfolio-Project/static/media/WomenOfWorth.39ac54ca.jpg",
     "static/media/blueWave.6aacee82.svg": "/Portfolio-Project/static/media/blueWave.6aacee82.svg",
     "static/media/bulb.83d661fb.png": "/Portfolio-Project/static/media/bulb.83d661fb.png",
-    "static/media/getFetch.cjs": "/Portfolio-Project/static/media/getFetch.5fde86e3.cjs",
+    "static/media/getFetch.cjs": "/Portfolio-Project/static/media/getFetch.1a0d91ef.cjs",
     "static/media/globe.643b5981.svg": "/Portfolio-Project/static/media/globe.643b5981.svg",
+    "static/media/ibm-automation-practitioner.25ea02c1.png": "/Portfolio-Project/static/media/ibm-automation-practitioner.25ea02c1.png",
     "static/media/iitf.c36bbae0.jpg": "/Portfolio-Project/static/media/iitf.c36bbae0.jpg",
     "static/media/pattern.ec2995bf.svg": "/Portfolio-Project/static/media/pattern.ec2995bf.svg",
     "static/media/texas.a707dc9a.jpg": "/Portfolio-Project/static/media/texas.a707dc9a.jpg",
@@ -56,8 +57,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.99d7c135.js",
-    "static/js/2.8aae018f.chunk.js",
+    "static/js/2.2d859a3c.chunk.js",
     "static/css/main.e6699215.chunk.css",
-    "static/js/main.6f780a1b.chunk.js"
+    "static/js/main.b72ff2ab.chunk.js"
   ]
 }
