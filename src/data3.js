@@ -37,6 +37,7 @@ import FinancialIndustry from "../src/images/Financial-Markets-Industry-Jumpstar
 import IBMAutomationPractioner from "../src/images/ibm-automation-practitioner.png";
 import watsonxEssentials from "../src/images/watsonx-Essentials.png";
 import AIGenerativeAIFoundations from "../src/images/AI-Generative-AI-Foundations.png";
+import IndustrialProductsIndustryJumpstart from "../src/images/Industrial-Products-Industry-Jumpstart.png";
 
 export const data = (t) => [
   {
@@ -375,6 +376,12 @@ export const data = (t) => [
         id: 21,
         title: "IBM Generative AI Foundations",
         img: AIGenerativeAIFoundations,
+        link: "https://www.credly.com/badges/29aba652-d423-4632-848b-ffa9caf4218f/public_url"
+      },
+      {
+        id: 22,
+        title: "Industrial Products Industry Jumpstart",
+        img: IndustrialProductsIndustryJumpstart,
         link: "https://www.credly.com/badges/29aba652-d423-4632-848b-ffa9caf4218f/public_url"
       },
     ],
