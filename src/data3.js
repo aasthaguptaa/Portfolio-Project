@@ -35,6 +35,8 @@ import WatsonXDataTechnical from "../src/images/watsonx-data-Technical-Sales-Adv
 import BankingIndustry from "../src/images/Banking-Industry-Jumpstart.png";
 import FinancialIndustry from "../src/images/Financial-Markets-Industry-Jumpstart.png";
 import IBMAutomationPractioner from "../src/images/ibm-automation-practitioner.png";
+import watsonxEssentials from "../src/images/watsonx-Essentials.png";
+import AIGenerativeAIFoundations from "../src/images/AI-Generative-AI-Foundations.png";
 
 export const data = (t) => [
   {
@@ -362,6 +364,18 @@ export const data = (t) => [
         title: "IBM Automation Practitioner",
         img: IBMAutomationPractioner,
         link: "https://www.credly.com/badges/e7b61395-5b7f-4ea3-aed1-aa0d3176f608/public_url"
+      },
+      {
+        id: 20,
+        title: "IBM watsonx Essentials",
+        img: watsonxEssentials,
+        link: "https://www.credly.com/badges/288f15e5-e45d-4c45-ba69-bba8c613e030/public_url"
+      },
+      {
+        id: 21,
+        title: "IBM Generative AI Foundations",
+        img: AIGenerativeAIFoundations,
+        link: "https://www.credly.com/badges/29aba652-d423-4632-848b-ffa9caf4218f/public_url"
       },
     ],
   },
