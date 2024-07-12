@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio-Project/static/css/main.e6699215.chunk.css",
-    "main.js": "/Portfolio-Project/static/js/main.b72ff2ab.chunk.js",
-    "main.js.map": "/Portfolio-Project/static/js/main.b72ff2ab.chunk.js.map",
+    "main.js": "/Portfolio-Project/static/js/main.6723afa8.chunk.js",
+    "main.js.map": "/Portfolio-Project/static/js/main.6723afa8.chunk.js.map",
     "runtime-main.js": "/Portfolio-Project/static/js/runtime-main.99d7c135.js",
     "runtime-main.js.map": "/Portfolio-Project/static/js/runtime-main.99d7c135.js.map",
     "static/js/2.2d859a3c.chunk.js": "/Portfolio-Project/static/js/2.2d859a3c.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/Portfolio-Project/index.html",
     "static/css/main.e6699215.chunk.css.map": "/Portfolio-Project/static/css/main.e6699215.chunk.css.map",
     "static/js/2.2d859a3c.chunk.js.LICENSE.txt": "/Portfolio-Project/static/js/2.2d859a3c.chunk.js.LICENSE.txt",
+    "static/media/AI-Generative-AI-Foundations.760e7359.png": "/Portfolio-Project/static/media/AI-Generative-AI-Foundations.760e7359.png",
     "static/media/Aajkaal.a96001c1.jpg": "/Portfolio-Project/static/media/Aajkaal.a96001c1.jpg",
     "static/media/AsthaFinal.0ecdfb24.png": "/Portfolio-Project/static/media/AsthaFinal.0ecdfb24.png",
     "static/media/Azure-Fundamentals.dd49b3c5.png": "/Portfolio-Project/static/media/Azure-Fundamentals.dd49b3c5.png",
@@ -52,6 +53,7 @@
     "static/media/iitf.c36bbae0.jpg": "/Portfolio-Project/static/media/iitf.c36bbae0.jpg",
     "static/media/pattern.ec2995bf.svg": "/Portfolio-Project/static/media/pattern.ec2995bf.svg",
     "static/media/texas.a707dc9a.jpg": "/Portfolio-Project/static/media/texas.a707dc9a.jpg",
+    "static/media/watsonx-Essentials.522374e3.png": "/Portfolio-Project/static/media/watsonx-Essentials.522374e3.png",
     "static/media/watsonx-data-Technical-Sales-Advanced.32c0be99.png": "/Portfolio-Project/static/media/watsonx-data-Technical-Sales-Advanced.32c0be99.png",
     "static/media/wave.a45e92d4.svg": "/Portfolio-Project/static/media/wave.a45e92d4.svg"
   },
@@ -59,6 +61,6 @@
     "static/js/runtime-main.99d7c135.js",
     "static/js/2.2d859a3c.chunk.js",
     "static/css/main.e6699215.chunk.css",
-    "static/js/main.b72ff2ab.chunk.js"
+    "static/js/main.6723afa8.chunk.js"
   ]
 }
