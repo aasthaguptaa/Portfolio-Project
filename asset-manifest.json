@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio-Project/static/css/main.e6699215.chunk.css",
-    "main.js": "/Portfolio-Project/static/js/main.6723afa8.chunk.js",
-    "main.js.map": "/Portfolio-Project/static/js/main.6723afa8.chunk.js.map",
+    "main.js": "/Portfolio-Project/static/js/main.3df8525f.chunk.js",
+    "main.js.map": "/Portfolio-Project/static/js/main.3df8525f.chunk.js.map",
     "runtime-main.js": "/Portfolio-Project/static/js/runtime-main.99d7c135.js",
     "runtime-main.js.map": "/Portfolio-Project/static/js/runtime-main.99d7c135.js.map",
     "static/js/2.2d859a3c.chunk.js": "/Portfolio-Project/static/js/2.2d859a3c.chunk.js",
@@ -30,6 +30,7 @@
     "static/media/IBM-Garage-Essentials.7fa44c03.png": "/Portfolio-Project/static/media/IBM-Garage-Essentials.7fa44c03.png",
     "static/media/IBM_Certified_Advocate_-_IBM_Cloud_v1.1ef80657.png": "/Portfolio-Project/static/media/IBM_Certified_Advocate_-_IBM_Cloud_v1.1ef80657.png",
     "static/media/IBM_New_Collar_Professional_Skills.4999758a.png": "/Portfolio-Project/static/media/IBM_New_Collar_Professional_Skills.4999758a.png",
+    "static/media/Industrial-Products-Industry-Jumpstart.e796693e.png": "/Portfolio-Project/static/media/Industrial-Products-Industry-Jumpstart.e796693e.png",
     "static/media/JavaScript-Front-End-Development.7b2e27ec.png": "/Portfolio-Project/static/media/JavaScript-Front-End-Development.7b2e27ec.png",
     "static/media/Mental-Health-Ally.75fed10c.png": "/Portfolio-Project/static/media/Mental-Health-Ally.75fed10c.png",
     "static/media/PRISM.050d6fa8.jpeg": "/Portfolio-Project/static/media/PRISM.050d6fa8.jpeg",
@@ -61,6 +62,6 @@
     "static/js/runtime-main.99d7c135.js",
     "static/js/2.2d859a3c.chunk.js",
     "static/css/main.e6699215.chunk.css",
-    "static/js/main.6723afa8.chunk.js"
+    "static/js/main.3df8525f.chunk.js"
   ]
 }
