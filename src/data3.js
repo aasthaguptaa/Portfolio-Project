@@ -382,7 +382,7 @@ export const data = (t) => [
         id: 22,
         title: "Industrial Products Industry Jumpstart",
         img: IndustrialProductsIndustryJumpstart,
-        link: "https://www.credly.com/badges/29aba652-d423-4632-848b-ffa9caf4218f/public_url"
+        link: "https://www.credly.com/badges/2b3c909d-a95a-4387-8051-ec0e78ce0ff4/public_url"
       },
     ],
   },
