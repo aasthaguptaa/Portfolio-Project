@@ -36,7 +36,7 @@ export default function Work1({ setMenuOpen, setOpenLangList }) {
       // icon: "./assets/writing.png",
       title: t("toDoList"),
       desc: t("toDoListDesc"),
-      link: "https://aasthaguptaa.github.io/To-Do-List",
+      link: "https://aasthaguptaa.github.io/TaskList",
       img: TaskList,
     },
   ];
