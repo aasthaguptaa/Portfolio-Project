@@ -17,7 +17,7 @@ export const data = (t) => [
       {
         id: 1,
         // subTitle: "[Ongoing]",
-        title: "Application Developer (Ongoing)",
+        title: "Application Developer",
         // description: "",
         // date: "Apr 2021 - Present [ 1 yr 4 mos ]",
         img: IBM,
